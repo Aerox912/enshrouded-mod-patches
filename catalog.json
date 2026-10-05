@@ -815,7 +815,7 @@
           "url": "https://github.com/Aerox912/enshrouded-server-compat/releases/download/v0.2.0/server-compat-0.2.0.dll",
           "sha256": "240676a9259ffbd120bfab2886235b4791438293ebc0005831a6bb5db66c7b04",
           "size": 192000,
-          "commit": "9fcf526",
+          "commit": "9fcf5262b49d59fa1c19a556f77292e559f21c7e",
           "tag": "v0.2.0"
         }
       ]
