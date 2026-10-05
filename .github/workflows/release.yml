@@ -47,6 +47,7 @@ jobs:
     permissions:
       contents: read
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/create-github-app-token@v2
         id: app
         with:
@@ -61,10 +62,4 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ steps.app.outputs.token }}
-        run: |
-          $body=@{event_type='component-released';client_payload=@{component='patches';tag=$env:GITHUB_REF_NAME}} | ConvertTo-Json -Compress
-          $body | Set-Content ./dispatch.json -Encoding utf8
-          foreach($repo in @('enshrouded-client-installer','enshrouded-server-compat')) {
-            gh api --method POST "repos/Aerox912/$repo/dispatches" --input ./dispatch.json
-            if($LASTEXITCODE){throw 'Package notification failed'}
-          }
+        run: ./ci/notify-packages.ps1

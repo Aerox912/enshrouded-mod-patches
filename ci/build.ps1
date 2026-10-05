@@ -19,6 +19,7 @@ $pythonLicense=Join-Path (Split-Path (Get-Command python).Source) 'LICENSE.txt'
 if(Test-Path $pythonLicense) { Copy-Item $pythonLicense "$stage/PYTHON-LICENSE.txt" }
 python -c 'import importlib.metadata,pathlib,shutil; p=pathlib.Path(importlib.metadata.distribution("pyinstaller").locate_file("PyInstaller"))/".."/"pyinstaller-6.16.0.dist-info"/"licenses"; shutil.copytree(p,"build/package/PYINSTALLER-LICENSES",dirs_exist_ok=True)'
 if($LASTEXITCODE) { throw 'Runtime license collection failed' }
-@{version=$version;commit=(& git rev-parse HEAD);repository='Aerox912/enshrouded-mod-patches'} | ConvertTo-Json | Set-Content "$stage/build-info.json" -Encoding utf8
+python ./tools/release-info.py
+if($LASTEXITCODE) { throw 'Release provenance failed' }
 Compress-Archive -Path "$stage/*" -DestinationPath "dist/enshrouded-mod-patches-$version.zip"
 Get-ChildItem dist -File | ForEach-Object { '{0}  {1}' -f (Get-FileHash $_.FullName).Hash.ToLowerInvariant(),$_.Name } | Set-Content dist/SHA256SUMS.txt -Encoding ascii
