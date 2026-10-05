@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "game": {
     "clientDataRevision": 1076226,
     "clientSha256": "af2f5a1227911d8aa06b3908d6bd0211838211cae14ea91099cb57d0df990781",
@@ -364,6 +364,16 @@
     {
       "id": "vein",
       "name": "Vein Mining",
+        "maintainedClientInput": {
+          "name": "Optional Vein Mining activation modes",
+          "author": "Aerox912",
+          "license": "MIT",
+          "source": "https://github.com/Aerox912/enshrouded-mod-patches/tree/main/native/vein-controls",
+          "targets": ["client"],
+          "default": "hold",
+          "modes": ["hold", "toggle", "always"],
+          "requires": "Verified Vein Mining 1.0.33 original or maintained English translation"
+        },
       "version": "1.0.33",
       "author": "XHL",
       "url": "https://www.nexusmods.com/enshrouded/mods/129",

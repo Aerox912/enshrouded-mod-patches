@@ -4,6 +4,7 @@
 - **Hoarder's Helper 1.0.0**: Dacrenzio. https://www.nexusmods.com/enshrouded/mods/136
 - **EMBER 2.2.0**: JaceTheGrayOne. https://www.nexusmods.com/enshrouded/mods/79
 - **Vein Mining 1.0.33**: XHL. https://www.nexusmods.com/enshrouded/mods/129
+- **Optional Vein Mining activation helper**: Aerox912, MIT. Source and instructions: [native/vein-controls](native/vein-controls). Hold remains the default; Toggle and Always on are personal client settings.
 - **Auto Loot 1.5.0**: XHL. https://www.nexusmods.com/enshrouded/mods/130
 - **Max Stack 65535 1.0.3**: XHL. https://www.nexusmods.com/enshrouded/mods/127
 - **Unlimited Gifting Range 1.0.0**: XHL. https://www.nexusmods.com/enshrouded/mods/126

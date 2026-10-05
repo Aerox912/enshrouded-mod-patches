@@ -1,6 +1,9 @@
 {
   "version": "1.0.33",
   "defaultKey": 192,
+  "inputImportOffset": 288536,
+  "inputImportOriginal": "USER32.dll",
+  "inputImportProxy": "vmkeys.dll",
   "hashes": ["6d31c439fda536aad2078683a244e2d05f685e5e3fba2d5467950fff613f5bcc", "6e1d953a09000915ed0218ff4b947b7abc9707e1c027fdddf5a72f65036d23f1"],
   "sites": [
     {"offset": 7248, "bytes": "b9c0000000ff158da304006685c0"},

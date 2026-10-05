@@ -10,7 +10,7 @@ class ReleaseRouting(unittest.TestCase):
   self.temp=tempfile.TemporaryDirectory();self.root=Path(self.temp.name)
   for name in ['catalog.json','client-files.json','client-imports.json','patcher.py']:
    shutil.copy2(ROOT/name,self.root/name)
-  for name in ['profiles','patches','defaults','ci']:
+  for name in ['profiles','patches','defaults','ci','native']:
    shutil.copytree(ROOT/name,self.root/name)
   self.client=release_info.fingerprint('client',self.root)
   self.server=release_info.fingerprint('server',self.root)
@@ -40,6 +40,10 @@ class ReleaseRouting(unittest.TestCase):
  def test_catalog_version_alone_triggers_neither(self):
   self.mutate_json('catalog.json',lambda d:d.update(version='999.0.0'))
   self.assertEqual(self.client,release_info.fingerprint('client',self.root))
+  self.assertEqual(self.server,release_info.fingerprint('server',self.root))
+ def test_controller_input_changes_trigger_clients_only(self):
+  with (self.root/'native/vein-controls/activation.h').open('a') as f:f.write('\n// New client input behavior\n')
+  self.assertNotEqual(self.client,release_info.fingerprint('client',self.root))
   self.assertEqual(self.server,release_info.fingerprint('server',self.root))
 
 if __name__=='__main__':unittest.main()
