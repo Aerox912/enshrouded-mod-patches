@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "game": {
     "clientDataRevision": 1076226,
     "clientSha256": "af2f5a1227911d8aa06b3908d6bd0211838211cae14ea91099cb57d0df990781",
@@ -672,6 +672,16 @@
       "profiles": [
         "normal",
         "cheeze"
+      ],
+      "artifacts": [
+        {
+          "repository": "Aerox912/Enshrouded-minimap",
+          "tag": "v0.5.4",
+          "commit": "6a2536a2a337bdaa46efd9db4725a465342f86a8",
+          "url": "https://github.com/Aerox912/Enshrouded-minimap/releases/download/v0.5.4/enshrouded-minimap-community-v0.5.4.zip",
+          "sha256": "957911f1a9f07e22ec8159c6a2df05bb255972dd856dbe4283841f22cd05b7b0",
+          "size": 6024662
+        }
       ]
     },
     {
@@ -688,6 +698,16 @@
       "profiles": [
         "normal",
         "cheeze"
+      ],
+      "artifacts": [
+        {
+          "repository": "Aerox912/shroudtopia",
+          "tag": "first-person-v1.1.2",
+          "commit": "88fa79f1594ec47bb0907076228ae38eedd46722",
+          "url": "https://github.com/Aerox912/shroudtopia/releases/download/first-person-v1.1.2/first-person-1.1.2.zip",
+          "sha256": "11583ffcbd504705f5b6259e3f462e0c2b7834db6d6cbcd8df1c9f2b6b9d2f1b",
+          "size": 21159
+        }
       ]
     },
     {
@@ -704,6 +724,15 @@
       "profiles": [
         "normal",
         "cheeze"
+      ],
+      "artifacts": [
+        {
+          "repository": "s0t7x/shroudtopia",
+          "tag": "0.1.1",
+          "url": "https://github.com/s0t7x/shroudtopia/releases/download/0.1.1/Shroudtopia-0.1.1.zip",
+          "sha256": "564269ad0cef7e7d863c37b2f20c4b5e4d6fb8566fe84c7c39cf737930e495b3",
+          "size": 225633
+        }
       ]
     },
     {
@@ -721,6 +750,26 @@
       "profiles": [
         "normal",
         "cheeze"
+      ],
+      "artifacts": [
+        {
+          "name": "EML 0.1.2 loader",
+          "url": "https://github.com/Brabb3l/kfc-parser/releases/download/v0.1.2/dinput8.dll",
+          "sha256": "9512c01b92ba6291381282ed95ee1ac3b4b08697296f43cf4f00c823431e1156",
+          "size": 20669938
+        },
+        {
+          "name": "EML 0.1.2 patcher",
+          "url": "https://github.com/Brabb3l/kfc-parser/releases/download/v0.1.2/emm.exe",
+          "sha256": "168a6ffe2688a2c5408847654409e024512c9926dfb91653d1fdfe3832154280",
+          "size": 21424552
+        },
+        {
+          "name": "EML 0.1.2 dbghelp loader",
+          "url": "https://github.com/Brabb3l/kfc-parser/releases/download/v0.1.2/dbghelp.dll",
+          "sha256": "7a1334fadbcf68fa3099d6757ad3e110d7196945cf3a2b102e44f451d0295dcd",
+          "size": 20708878
+        }
       ]
     },
     {
@@ -737,6 +786,14 @@
       "profiles": [
         "normal",
         "cheeze"
+      ],
+      "artifacts": [
+        {
+          "name": "OptiScaler 0.9.4",
+          "url": "https://github.com/optiscaler/OptiScaler/releases/download/v0.9.4/Optiscaler_0.9.4-final.20260718._MM.7z",
+          "sha256": "575cb4df866116093df75af607e37fd70e10f5163e0f23fd5c804142e80ef0ad",
+          "size": 55016448
+        }
       ]
     },
     {
@@ -752,7 +809,17 @@
       ],
       "profiles": [
         "cheeze"
+      ],
+      "artifacts": [
+        {
+          "url": "https://github.com/Aerox912/enshrouded-server-compat/releases/download/v0.2.0/server-compat-0.2.0.dll",
+          "sha256": "240676a9259ffbd120bfab2886235b4791438293ebc0005831a6bb5db66c7b04",
+          "size": 192000,
+          "commit": "9fcf526",
+          "tag": "v0.2.0"
+        }
       ]
     }
-  ]
+  ],
+  "resolution": "Package dependency locks override maintained-release versions; every assembled package must record its resolved artifact checksums and source commits."
 }
