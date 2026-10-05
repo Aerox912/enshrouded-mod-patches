@@ -1,0 +1,1254 @@
+{
+  "version": "1.0.33",
+  "sha256": "6d31c439fda536aad2078683a244e2d05f685e5e3fba2d5467950fff613f5bcc",
+  "strings": [
+    {
+      "offset": 226778,
+      "rva": 234458,
+      "original": "未识别地形",
+      "english": "Unidentified terrain"
+    },
+    {
+      "offset": 226790,
+      "rva": 234470,
+      "original": "春日平原之土",
+      "english": "Springlands Dirt"
+    },
+    {
+      "offset": 226804,
+      "rva": 234484,
+      "original": "石头",
+      "english": "Stone"
+    },
+    {
+      "offset": 226810,
+      "rva": 234490,
+      "original": "基岩（无掉落物）",
+      "english": "Bedrock (no drops)"
+    },
+    {
+      "offset": 226828,
+      "rva": 234508,
+      "original": "煤炭",
+      "english": "Coal"
+    },
+    {
+      "offset": 226834,
+      "rva": 234514,
+      "original": "黑曜石",
+      "english": "Obsidian"
+    },
+    {
+      "offset": 226842,
+      "rva": 234522,
+      "original": "瓦砾",
+      "english": "Rubble"
+    },
+    {
+      "offset": 226848,
+      "rva": 234528,
+      "original": "沙",
+      "english": "Sand"
+    },
+    {
+      "offset": 226852,
+      "rva": 234532,
+      "original": "幕水盆地之土",
+      "english": "Veilwater Basin Dirt"
+    },
+    {
+      "offset": 226866,
+      "rva": 234546,
+      "original": "游牧高地之土",
+      "english": "Nomad Highlands Dirt"
+    },
+    {
+      "offset": 226880,
+      "rva": 234560,
+      "original": "喧嚣森林之土",
+      "english": "Revelwood Dirt"
+    },
+    {
+      "offset": 226894,
+      "rva": 234574,
+      "original": "花岗岩",
+      "english": "Granite"
+    },
+    {
+      "offset": 226902,
+      "rva": 234582,
+      "original": "菌丝",
+      "english": "Mycelium"
+    },
+    {
+      "offset": 226908,
+      "rva": 234588,
+      "original": "红色瘴气精华（无掉落物）",
+      "english": "Red Shroud Essence (no drops)"
+    },
+    {
+      "offset": 226934,
+      "rva": 234614,
+      "original": "盐",
+      "english": "Salt"
+    },
+    {
+      "offset": 226938,
+      "rva": 234618,
+      "original": "琥珀",
+      "english": "Amber"
+    },
+    {
+      "offset": 226944,
+      "rva": 234624,
+      "original": "燧石",
+      "english": "Flintstone"
+    },
+    {
+      "offset": 226950,
+      "rva": 234630,
+      "original": "土路方块",
+      "english": "Dirt Road Block"
+    },
+    {
+      "offset": 226960,
+      "rva": 234640,
+      "original": "紫水晶",
+      "english": "Amethyst"
+    },
+    {
+      "offset": 226968,
+      "rva": 234648,
+      "original": "黏土团",
+      "english": "Clay"
+    },
+    {
+      "offset": 226976,
+      "rva": 234656,
+      "original": "铜矿石",
+      "english": "Copper Ore"
+    },
+    {
+      "offset": 226984,
+      "rva": 234664,
+      "original": "锡矿石",
+      "english": "Tin Ore"
+    },
+    {
+      "offset": 226992,
+      "rva": 234672,
+      "original": "砂岩",
+      "english": "Sandstone"
+    },
+    {
+      "offset": 226998,
+      "rva": 234678,
+      "original": "铁矿石",
+      "english": "Iron Ore"
+    },
+    {
+      "offset": 227006,
+      "rva": 234686,
+      "original": "硫磺",
+      "english": "Sulfur"
+    },
+    {
+      "offset": 227012,
+      "rva": 234692,
+      "original": "青金石",
+      "english": "Lapis Lazuli"
+    },
+    {
+      "offset": 227020,
+      "rva": 234700,
+      "original": "幽光土",
+      "english": "Luminous Soil"
+    },
+    {
+      "offset": 227028,
+      "rva": 234708,
+      "original": "活性菌丝",
+      "english": "Glowing Mycelium"
+    },
+    {
+      "offset": 227038,
+      "rva": 234718,
+      "original": "熔岩（无掉落物）",
+      "english": "Lava (no drops)"
+    },
+    {
+      "offset": 227056,
+      "rva": 234736,
+      "original": "树枝",
+      "english": "Twigs"
+    },
+    {
+      "offset": 227062,
+      "rva": 234742,
+      "original": "化石骨",
+      "english": "Fossilized Bone"
+    },
+    {
+      "offset": 227070,
+      "rva": 234750,
+      "original": "农田土壤",
+      "english": "Farm Soil"
+    },
+    {
+      "offset": 227080,
+      "rva": 234760,
+      "original": "喧嚣森林石头",
+      "english": "Revelwood Stone"
+    },
+    {
+      "offset": 227094,
+      "rva": 234774,
+      "original": "肥沃农田土壤",
+      "english": "Fertilized Farm Soil"
+    },
+    {
+      "offset": 227108,
+      "rva": 234788,
+      "original": "石灰石",
+      "english": "Limestone"
+    },
+    {
+      "offset": 227116,
+      "rva": 234796,
+      "original": "花卉土壤",
+      "english": "Flower Soil"
+    },
+    {
+      "offset": 227126,
+      "rva": 234806,
+      "original": "细沙",
+      "english": "Fine Sand"
+    },
+    {
+      "offset": 227132,
+      "rva": 234812,
+      "original": "黑沼树皮",
+      "english": "Blackmire Bark"
+    },
+    {
+      "offset": 227142,
+      "rva": 234822,
+      "original": "骨头",
+      "english": "Bones"
+    },
+    {
+      "offset": 227148,
+      "rva": 234828,
+      "original": "剧毒黏液",
+      "english": "Toxic Slime"
+    },
+    {
+      "offset": 227158,
+      "rva": 234838,
+      "original": "灵质碎片",
+      "english": "Ectoplasm Fragments"
+    },
+    {
+      "offset": 227168,
+      "rva": 234848,
+      "original": "焦油",
+      "english": "Tar"
+    },
+    {
+      "offset": 227174,
+      "rva": 234854,
+      "original": "树叶",
+      "english": "Leaves"
+    },
+    {
+      "offset": 227180,
+      "rva": 234860,
+      "original": "黑沼心木",
+      "english": "Blackmire Heartwood"
+    },
+    {
+      "offset": 227190,
+      "rva": 234870,
+      "original": "蘑菇肉质",
+      "english": "Mushroom Flesh"
+    },
+    {
+      "offset": 227200,
+      "rva": 234880,
+      "original": "沃卡筑巢材料",
+      "english": "Vukah Nesting Material"
+    },
+    {
+      "offset": 227214,
+      "rva": 234894,
+      "original": "雪",
+      "english": "Snow"
+    },
+    {
+      "offset": 227218,
+      "rva": 234898,
+      "original": "冰块",
+      "english": "Ice"
+    },
+    {
+      "offset": 227224,
+      "rva": 234904,
+      "original": "阿尔班耶夫山脉之土",
+      "english": "Albaneve Summits Dirt"
+    },
+    {
+      "offset": 227244,
+      "rva": 234924,
+      "original": "苔藓",
+      "english": "Moss"
+    },
+    {
+      "offset": 227250,
+      "rva": 234930,
+      "original": "红色大理石碎片",
+      "english": "Raw Red Marble"
+    },
+    {
+      "offset": 227266,
+      "rva": 234946,
+      "original": "花岗岩石路方块",
+      "english": "Granite Road Block"
+    },
+    {
+      "offset": 227282,
+      "rva": 234962,
+      "original": "银矿石",
+      "english": "Silver Ore"
+    },
+    {
+      "offset": 227290,
+      "rva": 234970,
+      "original": "农田石块",
+      "english": "Farm Stone"
+    },
+    {
+      "offset": 227300,
+      "rva": 234980,
+      "original": "远古精华 I",
+      "english": "Archaic Essence I"
+    },
+    {
+      "offset": 227314,
+      "rva": 234994,
+      "original": "游牧高地沃土",
+      "english": "Fertile Nomad Highlands Soil"
+    },
+    {
+      "offset": 227328,
+      "rva": 235008,
+      "original": "酸性菌丝",
+      "english": "Acidic Mycelium"
+    },
+    {
+      "offset": 227338,
+      "rva": 235018,
+      "original": "肥沃的燃火荒原之沙",
+      "english": "Fertile Kindlewastes Sand"
+    },
+    {
+      "offset": 227358,
+      "rva": 235038,
+      "original": "瘴气之沙",
+      "english": "Shroud Sand"
+    },
+    {
+      "offset": 227368,
+      "rva": 235048,
+      "original": "瘴气附魔农田土壤",
+      "english": "Shroud-Enriched Farm Soil"
+    },
+    {
+      "offset": 227386,
+      "rva": 235066,
+      "original": "春日平原沃土",
+      "english": "Fertile Springlands Soil"
+    },
+    {
+      "offset": 227400,
+      "rva": 235080,
+      "original": "喧嚣森林沃土",
+      "english": "Fertile Revelwood Soil"
+    },
+    {
+      "offset": 227414,
+      "rva": 235094,
+      "original": "喧嚣森林瓦砾",
+      "english": "Revelwood Rubble"
+    },
+    {
+      "offset": 227428,
+      "rva": 235108,
+      "original": "远古精华 II",
+      "english": "Archaic Essence II"
+    },
+    {
+      "offset": 227444,
+      "rva": 235124,
+      "original": "远古精华 III",
+      "english": "Archaic Essence III"
+    },
+    {
+      "offset": 227462,
+      "rva": 235142,
+      "original": "远古精华 IV",
+      "english": "Archaic Essence IV"
+    },
+    {
+      "offset": 227478,
+      "rva": 235158,
+      "original": "远古精华 V",
+      "english": "Archaic Essence V"
+    },
+    {
+      "offset": 227492,
+      "rva": 235172,
+      "original": "贝壳灰岩",
+      "english": "Shell Limestone"
+    },
+    {
+      "offset": 227502,
+      "rva": 235182,
+      "original": "幕水盆地瓦砾",
+      "english": "Veilwater Basin Rubble"
+    },
+    {
+      "offset": 227516,
+      "rva": 235196,
+      "original": "幕水盆地沃土",
+      "english": "Fertile Veilwater Basin Soil"
+    },
+    {
+      "offset": 227530,
+      "rva": 235210,
+      "original": "金矿石",
+      "english": "Gold Ore"
+    },
+    {
+      "offset": 227538,
+      "rva": 235218,
+      "original": "金币",
+      "english": "Gold Coins"
+    },
+    {
+      "offset": 227544,
+      "rva": 235224,
+      "original": "水下淤泥",
+      "english": "Underwater Silt"
+    },
+    {
+      "offset": 227554,
+      "rva": 235234,
+      "original": "水下幽光土",
+      "english": "Underwater Luminous Soil"
+    },
+    {
+      "offset": 227566,
+      "rva": 235246,
+      "original": "瘴气黏液",
+      "english": "Shroud Slime"
+    },
+    {
+      "offset": 227576,
+      "rva": 235256,
+      "original": "幕水盆地之沙",
+      "english": "Veilwater Basin Sand"
+    },
+    {
+      "offset": 227590,
+      "rva": 235270,
+      "original": "海蓝宝石",
+      "english": "Aquamarine"
+    },
+    {
+      "offset": 227600,
+      "rva": 235280,
+      "original": "珍珠母",
+      "english": "Mother of Pearl"
+    },
+    {
+      "offset": 227608,
+      "rva": 235288,
+      "original": "远古精华 VI",
+      "english": "Archaic Essence VI"
+    },
+    {
+      "offset": 227624,
+      "rva": 235304,
+      "original": "未标注",
+      "english": "Unlabelled terrain"
+    },
+    {
+      "offset": 227632,
+      "rva": 235312,
+      "original": "黑沼泥土",
+      "english": "Blackmire Dirt"
+    },
+    {
+      "offset": 227642,
+      "rva": 235322,
+      "original": "肥沃黑沼泥土",
+      "english": "Fertile Blackmire Soil"
+    },
+    {
+      "offset": 227656,
+      "rva": 235336,
+      "original": "黑沼石头",
+      "english": "Blackmire Stone"
+    },
+    {
+      "offset": 227666,
+      "rva": 235346,
+      "original": "黑沼瓦砾",
+      "english": "Blackmire Rubble"
+    },
+    {
+      "offset": 227676,
+      "rva": 235356,
+      "original": "未知地形材质",
+      "english": "Unknown terrain material"
+    },
+    {
+      "offset": 227690,
+      "rva": 235370,
+      "original": "XHL 连锁采集目标提示",
+      "english": "XHL Vein Mining Target Preview"
+    },
+    {
+      "offset": 227720,
+      "rva": 235400,
+      "original": "Microsoft YaHei UI",
+      "english": "Segoe UI"
+    },
+    {
+      "offset": 227758,
+      "rva": 235438,
+      "original": "zh-CN",
+      "english": "en-US"
+    },
+    {
+      "offset": 227776,
+      "rva": 235456,
+      "original": "当前目标：%ls（ID %u）",
+      "english": "Target: %ls (ID %u)"
+    }
+  ],
+  "references": [
+    {
+      "rva": 31919,
+      "offset": 28847,
+      "bytes": "4c8d05b41a0300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235370
+    },
+    {
+      "rva": 36584,
+      "offset": 33512,
+      "bytes": "4c8d0df7040300",
+      "displacement": 3,
+      "size": 7,
+      "target": 234470
+    },
+    {
+      "rva": 36602,
+      "offset": 33530,
+      "bytes": "4c8d05bf080300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235456
+    },
+    {
+      "rva": 36879,
+      "offset": 33807,
+      "bytes": "4c8d0d12070300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235304
+    },
+    {
+      "rva": 36891,
+      "offset": 33819,
+      "bytes": "4c8d0d82060300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235172
+    },
+    {
+      "rva": 36903,
+      "offset": 33831,
+      "bytes": "4c8d0df6040300",
+      "displacement": 3,
+      "size": 7,
+      "target": 234788
+    },
+    {
+      "rva": 36915,
+      "offset": 33843,
+      "bytes": "4c8d0d1c040300",
+      "displacement": 3,
+      "size": 7,
+      "target": 234582
+    },
+    {
+      "rva": 36927,
+      "offset": 33855,
+      "bytes": "4c8d0dd4030300",
+      "displacement": 3,
+      "size": 7,
+      "target": 234522
+    },
+    {
+      "rva": 36939,
+      "offset": 33867,
+      "bytes": "4c8d0da2030300",
+      "displacement": 3,
+      "size": 7,
+      "target": 234484
+    },
+    {
+      "rva": 38433,
+      "offset": 35361,
+      "bytes": "488d3d86010300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235438
+    },
+    {
+      "rva": 38468,
+      "offset": 35396,
+      "bytes": "488d153d010300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235400
+    },
+    {
+      "rva": 38688,
+      "offset": 35616,
+      "bytes": "4c8d0d35000300",
+      "displacement": 3,
+      "size": 7,
+      "target": 235356
+    },
+    {
+      "rva": 38729,
+      "offset": 35657,
+      "bytes": "4c8d0de0ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235312
+    },
+    {
+      "rva": 38741,
+      "offset": 35669,
+      "bytes": "4c8d0dbcff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235288
+    },
+    {
+      "rva": 38753,
+      "offset": 35681,
+      "bytes": "4c8d0da8ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235280
+    },
+    {
+      "rva": 38765,
+      "offset": 35693,
+      "bytes": "4c8d0d00ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235124
+    },
+    {
+      "rva": 38777,
+      "offset": 35705,
+      "bytes": "4c8d0de4fe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235108
+    },
+    {
+      "rva": 38789,
+      "offset": 35717,
+      "bytes": "4c8d0dcafe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235094
+    },
+    {
+      "rva": 38801,
+      "offset": 35729,
+      "bytes": "4c8d0db0fe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235080
+    },
+    {
+      "rva": 38813,
+      "offset": 35741,
+      "bytes": "4c8d0d62ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235270
+    },
+    {
+      "rva": 38825,
+      "offset": 35753,
+      "bytes": "4c8d0d48ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235256
+    },
+    {
+      "rva": 38837,
+      "offset": 35765,
+      "bytes": "4c8d0d32ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235246
+    },
+    {
+      "rva": 38849,
+      "offset": 35777,
+      "bytes": "4c8d0d1aff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235234
+    },
+    {
+      "rva": 38861,
+      "offset": 35789,
+      "bytes": "4c8d0d04ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235224
+    },
+    {
+      "rva": 38873,
+      "offset": 35801,
+      "bytes": "4c8d0df2fe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235218
+    },
+    {
+      "rva": 38885,
+      "offset": 35813,
+      "bytes": "4c8d0ddefe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235210
+    },
+    {
+      "rva": 38897,
+      "offset": 35825,
+      "bytes": "4c8d0dc4fe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235196
+    },
+    {
+      "rva": 38930,
+      "offset": 35858,
+      "bytes": "4c8d0d2fff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235336
+    },
+    {
+      "rva": 38942,
+      "offset": 35870,
+      "bytes": "4c8d0d15ff0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235322
+    },
+    {
+      "rva": 38954,
+      "offset": 35882,
+      "bytes": "4c8d0ddbfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234508
+    },
+    {
+      "rva": 38966,
+      "offset": 35894,
+      "bytes": "4c8d0dbdfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234490
+    },
+    {
+      "rva": 38978,
+      "offset": 35906,
+      "bytes": "4c8d0d91fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234458
+    },
+    {
+      "rva": 38990,
+      "offset": 35918,
+      "bytes": "4c8d0dfdfe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235346
+    },
+    {
+      "rva": 39002,
+      "offset": 35930,
+      "bytes": "4c8d0dedfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234574
+    },
+    {
+      "rva": 39014,
+      "offset": 35942,
+      "bytes": "4c8d0da5fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234514
+    },
+    {
+      "rva": 39026,
+      "offset": 35954,
+      "bytes": "4c8d0dabfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234532
+    },
+    {
+      "rva": 39038,
+      "offset": 35966,
+      "bytes": "4c8d0d9bfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234528
+    },
+    {
+      "rva": 39050,
+      "offset": 35978,
+      "bytes": "4c8d0d05fe0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235158
+    },
+    {
+      "rva": 39062,
+      "offset": 35990,
+      "bytes": "4c8d0de9fd0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235142
+    },
+    {
+      "rva": 39074,
+      "offset": 36002,
+      "bytes": "4c8d0d97fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234560
+    },
+    {
+      "rva": 39086,
+      "offset": 36014,
+      "bytes": "4c8d0d7dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234546
+    },
+    {
+      "rva": 39098,
+      "offset": 36026,
+      "bytes": "4c8d0d1dfc0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234718
+    },
+    {
+      "rva": 39110,
+      "offset": 36038,
+      "bytes": "4c8d0d07fc0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234708
+    },
+    {
+      "rva": 39122,
+      "offset": 36050,
+      "bytes": "4c8d0df3fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234700
+    },
+    {
+      "rva": 39134,
+      "offset": 36062,
+      "bytes": "4c8d0ddffb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234692
+    },
+    {
+      "rva": 39146,
+      "offset": 36074,
+      "bytes": "4c8d0dcdfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234686
+    },
+    {
+      "rva": 39158,
+      "offset": 36086,
+      "bytes": "4c8d0db9fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234678
+    },
+    {
+      "rva": 39170,
+      "offset": 36098,
+      "bytes": "4c8d0da7fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234672
+    },
+    {
+      "rva": 39182,
+      "offset": 36110,
+      "bytes": "4c8d0d93fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234664
+    },
+    {
+      "rva": 39194,
+      "offset": 36122,
+      "bytes": "4c8d0d7ffb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234656
+    },
+    {
+      "rva": 39206,
+      "offset": 36134,
+      "bytes": "4c8d0d6bfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234648
+    },
+    {
+      "rva": 39218,
+      "offset": 36146,
+      "bytes": "4c8d0d57fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234640
+    },
+    {
+      "rva": 39230,
+      "offset": 36158,
+      "bytes": "4c8d0d41fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234630
+    },
+    {
+      "rva": 39242,
+      "offset": 36170,
+      "bytes": "4c8d0d2ffb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234624
+    },
+    {
+      "rva": 39254,
+      "offset": 36182,
+      "bytes": "4c8d0d1dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234618
+    },
+    {
+      "rva": 39266,
+      "offset": 36194,
+      "bytes": "4c8d0d0dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234614
+    },
+    {
+      "rva": 39278,
+      "offset": 36206,
+      "bytes": "4c8d0de7fa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234588
+    },
+    {
+      "rva": 39290,
+      "offset": 36218,
+      "bytes": "4c8d0d2dfd0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235182
+    },
+    {
+      "rva": 39302,
+      "offset": 36230,
+      "bytes": "4c8d0d89fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234774
+    },
+    {
+      "rva": 39314,
+      "offset": 36242,
+      "bytes": "4c8d0d9dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234806
+    },
+    {
+      "rva": 39326,
+      "offset": 36254,
+      "bytes": "4c8d0d87fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234796
+    },
+    {
+      "rva": 39338,
+      "offset": 36266,
+      "bytes": "4c8d0d57fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234760
+    },
+    {
+      "rva": 39350,
+      "offset": 36278,
+      "bytes": "4c8d0d41fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234750
+    },
+    {
+      "rva": 39362,
+      "offset": 36290,
+      "bytes": "4c8d0d2dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234742
+    },
+    {
+      "rva": 39374,
+      "offset": 36302,
+      "bytes": "4c8d0d1bfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234736
+    },
+    {
+      "rva": 39386,
+      "offset": 36314,
+      "bytes": "4c8d0d95fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234870
+    },
+    {
+      "rva": 39398,
+      "offset": 36326,
+      "bytes": "4c8d0d7ffb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234860
+    },
+    {
+      "rva": 39410,
+      "offset": 36338,
+      "bytes": "4c8d0d6dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234854
+    },
+    {
+      "rva": 39422,
+      "offset": 36350,
+      "bytes": "4c8d0d5bfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234848
+    },
+    {
+      "rva": 39434,
+      "offset": 36362,
+      "bytes": "4c8d0d45fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234838
+    },
+    {
+      "rva": 39446,
+      "offset": 36374,
+      "bytes": "4c8d0d2ffb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234828
+    },
+    {
+      "rva": 39458,
+      "offset": 36386,
+      "bytes": "4c8d0d1dfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234822
+    },
+    {
+      "rva": 39470,
+      "offset": 36398,
+      "bytes": "4c8d0d07fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234812
+    },
+    {
+      "rva": 39482,
+      "offset": 36410,
+      "bytes": "4c8d0df9fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235066
+    },
+    {
+      "rva": 39494,
+      "offset": 36422,
+      "bytes": "4c8d0ddbfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235048
+    },
+    {
+      "rva": 39506,
+      "offset": 36434,
+      "bytes": "4c8d0dc5fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235038
+    },
+    {
+      "rva": 39518,
+      "offset": 36446,
+      "bytes": "4c8d0da5fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235018
+    },
+    {
+      "rva": 39530,
+      "offset": 36458,
+      "bytes": "4c8d0d8ffb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 235008
+    },
+    {
+      "rva": 39542,
+      "offset": 36470,
+      "bytes": "4c8d0d75fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234994
+    },
+    {
+      "rva": 39554,
+      "offset": 36482,
+      "bytes": "4c8d0d5bfb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234980
+    },
+    {
+      "rva": 39566,
+      "offset": 36494,
+      "bytes": "4c8d0d45fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234970
+    },
+    {
+      "rva": 39578,
+      "offset": 36506,
+      "bytes": "4c8d0d31fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234962
+    },
+    {
+      "rva": 39590,
+      "offset": 36518,
+      "bytes": "4c8d0d15fb0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234946
+    },
+    {
+      "rva": 39602,
+      "offset": 36530,
+      "bytes": "4c8d0df9fa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234930
+    },
+    {
+      "rva": 39614,
+      "offset": 36542,
+      "bytes": "4c8d0de7fa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234924
+    },
+    {
+      "rva": 39626,
+      "offset": 36554,
+      "bytes": "4c8d0dc7fa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234904
+    },
+    {
+      "rva": 39638,
+      "offset": 36566,
+      "bytes": "4c8d0db5fa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234898
+    },
+    {
+      "rva": 39650,
+      "offset": 36578,
+      "bytes": "4c8d0da5fa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234894
+    },
+    {
+      "rva": 39662,
+      "offset": 36590,
+      "bytes": "4c8d0d8bfa0200",
+      "displacement": 3,
+      "size": 7,
+      "target": 234880
+    }
+  ]
+}

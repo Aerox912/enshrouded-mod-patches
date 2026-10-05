@@ -1,0 +1,1250 @@
+{
+  "Id": "enshrouded-client-mods-more-cheese-v1",
+  "GameHash": "af2f5a1227911d8aa06b3908d6bd0211838211cae14ea91099cb57d0df990781",
+  "BaseKfcHash": "b0b0ec4c4f970c0b317224b44d330ef7dd41334bf53ee93d3bce4d0180489a42",
+  "Files": [
+    {
+      "Path": "game/!! README_EXTRACT ALL FILES TO GAME FOLDER !!.txt",
+      "Hash": "09051e971a9a1bf7a1500a041b2a4652414a13d23266709cdb41e4ec12208ade",
+      "Size": 400,
+      "Download": "opti",
+      "ArchivePath": "!! README_EXTRACT ALL FILES TO GAME FOLDER !!.txt"
+    },
+    {
+      "Path": "game/amd_fidelityfx_dx12.dll",
+      "Hash": "e2d85aa05a9bd9ed8b38935fdf5199372cca6f74c12015143bb6f945ee1608aa",
+      "Size": 26376,
+      "Download": "opti",
+      "ArchivePath": "amd_fidelityfx_dx12.dll"
+    },
+    {
+      "Path": "game/amd_fidelityfx_framegeneration_dx12.dll",
+      "Hash": "02297beedd285e822d3a64f314cf00faf378dcec0edc47ff0c4dd71b3a8c2f18",
+      "Size": 40085776,
+      "Download": "opti",
+      "ArchivePath": "amd_fidelityfx_framegeneration_dx12.dll"
+    },
+    {
+      "Path": "game/amd_fidelityfx_upscaler_dx12.dll",
+      "Hash": "d0dcccc74a43c44ba435b7a369b456e0970d8a4464e4bd683119b374f2c9fb46",
+      "Size": 28761864,
+      "Download": "opti",
+      "ArchivePath": "amd_fidelityfx_upscaler_dx12.dll"
+    },
+    {
+      "Path": "game/amd_fidelityfx_vk.dll",
+      "Hash": "a1624cc4238fef046f30c4d80ce3f47be63fc5f5373f49e3ee9edb9960f54c78",
+      "Size": 9332432,
+      "Download": "opti",
+      "ArchivePath": "amd_fidelityfx_vk.dll"
+    },
+    {
+      "Path": "game/dlssg_to_fsr3_amd_is_better.dll",
+      "Hash": "806020c0444f7841a3a9f661295c16fc482e981e0666d0b9624bf6ccd19c4b5e",
+      "Size": 3038208,
+      "Download": "opti",
+      "ArchivePath": "dlssg_to_fsr3_amd_is_better.dll"
+    },
+    {
+      "Path": "game/fakenvapi.dll",
+      "Hash": "373e73dc06e2d66e90083fde3bc99ef5c1ed0bef98d1f7eda56c8b073269c3f1",
+      "Size": 415232,
+      "Download": "opti",
+      "ArchivePath": "fakenvapi.dll"
+    },
+    {
+      "Path": "game/fakenvapi.ini",
+      "Hash": "a4bfa3ec7b4badd93ae5e1ad74a582238082d871f54f38f68e7d9fb6384ce772",
+      "Size": 466,
+      "Download": "opti",
+      "ArchivePath": "fakenvapi.ini"
+    },
+    {
+      "Path": "game/libxell.dll",
+      "Hash": "61aeeab7fdcfb6d1742f86c14c68c663d759607d01a6132645c857291eaebb86",
+      "Size": 411504,
+      "Download": "opti",
+      "ArchivePath": "libxell.dll"
+    },
+    {
+      "Path": "game/libxess_dx11.dll",
+      "Hash": "c7cfe86f0c9d94e4fb3696d3cd5035e2bbb6a8b1b0572f8b7395a4cdfd0c625e",
+      "Size": 156016,
+      "Download": "opti",
+      "ArchivePath": "libxess_dx11.dll"
+    },
+    {
+      "Path": "game/libxess_fg.dll",
+      "Hash": "ec5e0c65e075570c6ede72618bb666d0be0c2e10b2ea9762c0fe8cb8e375ab27",
+      "Size": 22957432,
+      "Download": "opti",
+      "ArchivePath": "libxess_fg.dll"
+    },
+    {
+      "Path": "game/libxess.dll",
+      "Hash": "251659dd84a3e84de67c886a4186e01f3eca49b00641906fe38bb6b807e5d5b7",
+      "Size": 77795704,
+      "Download": "opti",
+      "ArchivePath": "libxess.dll"
+    },
+    {
+      "Path": "game/OptiScaler.dll",
+      "Hash": "fbfb6676b829dad7e020fb830586a16aa0ec6add78016db48ef12e2ae1803231",
+      "Size": 25379632,
+      "Download": "opti",
+      "ArchivePath": "OptiScaler.dll"
+    },
+    {
+      "Path": "game/OptiScaler.ini",
+      "Hash": "02259150c3c2089628abc69c140d746187d0d2b5ad79a4742eab3d6dcad62932",
+      "Size": 47472,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/setup_linux.sh",
+      "Hash": "0571b0ae077d985616acf9f4101e8338fc225b1b22aa7b339100c7ea3f3022be",
+      "Size": 12328,
+      "Download": "opti",
+      "ArchivePath": "setup_linux.sh"
+    },
+    {
+      "Path": "game/setup_windows.bat",
+      "Hash": "cf731a2d308df4b48db968b911b0ea1fc490fdf79d6c2ed168363312c95d2f4e",
+      "Size": 16947,
+      "Download": "opti",
+      "ArchivePath": "setup_windows.bat"
+    },
+    {
+      "Path": "game/D3D12_Optiscaler/D3D12Core.dll",
+      "Hash": "07d286c306f8117321422affd9e6388c12d0fb4be1c7fc689d9e899324feeb24",
+      "Size": 3351064,
+      "Download": "opti",
+      "ArchivePath": "D3D12_Optiscaler/D3D12Core.dll"
+    },
+    {
+      "Path": "game/Licenses/DirectX_LICENSE.txt",
+      "Hash": "5239850894610071566f7ecee0b751fde43c862032d92b99d7d0f596b3433ebd",
+      "Size": 13147,
+      "Download": "opti",
+      "ArchivePath": "Licenses/DirectX_LICENSE.txt"
+    },
+    {
+      "Path": "game/Licenses/FidelityFX_v1_LICENSE.md",
+      "Hash": "a335c2bb2bd28184b9a30b6e35b0c7e4aa7826abd1c388fc2aa02405e9d04f03",
+      "Size": 1142,
+      "Download": "opti",
+      "ArchivePath": "Licenses/FidelityFX_v1_LICENSE.md"
+    },
+    {
+      "Path": "game/Licenses/FidelityFX_v2_LICENSE.md",
+      "Hash": "f0da09d71ad5c82759a179e774535d4a829e5c96c49294167c1152402b2cb400",
+      "Size": 61784,
+      "Download": "opti",
+      "ArchivePath": "Licenses/FidelityFX_v2_LICENSE.md"
+    },
+    {
+      "Path": "game/Licenses/XeSS_LICENSE.txt",
+      "Hash": "784be42c39a4a4d03cf85d88e15e59d75828fca773ce45b8dbfffbd7eaf208df",
+      "Size": 4194,
+      "Download": "opti",
+      "ArchivePath": "Licenses/XeSS_LICENSE.txt"
+    },
+    {
+      "Path": "game/shroudtopia.dll",
+      "Hash": "53ceee2dd51c12b7db1371092eddcd1118abeaeaba6e3b482986a071ab9b1a11",
+      "Size": 218624,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/shroudtopia.json",
+      "Hash": "ddfaede365447f657e4f7cb32d9abab771692cd664d69afe7375ede1ba928426",
+      "Size": 899,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/winmm.dll",
+      "Hash": "7c04c126115feb1e5482a2446cb7770ac196d8b0e1c21ac1e6a117f87d695715",
+      "Size": 23552,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "shroudscaler",
+      "OriginalHash": "7c04c126115feb1e5482a2446cb7770ac196d8b0e1c21ac1e6a117f87d695715",
+      "Patch": null
+    },
+    {
+      "Path": "game/dinput8.dll",
+      "Hash": "9512c01b92ba6291381282ed95ee1ac3b4b08697296f43cf4f00c823431e1156",
+      "Size": 20669938,
+      "Download": "eml-loader",
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/eml.json",
+      "Hash": "431c655698fee750a60b076437ed7c0674e4ba753c6f64f186c65ab651b7bae0",
+      "Size": 57,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/first_person_view.dll",
+      "Hash": "109dabbe2084389c0eb90b7ae31446f313db85c5694c582be4b59d0d8a2d8fd1",
+      "Size": 34816,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_fowr.bin",
+      "Hash": "d74ac585b641134d7cd2f27b61acfbfc5fa93b53502775f58a0552df71790357",
+      "Size": 16400,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_minimap_frame.frag.spv",
+      "Hash": "89a4c2a07c238c67611761c2ae34103e477c184ac7d4280b9253bd6e091430c7",
+      "Size": 564,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_minimap_frame.rgba",
+      "Hash": "d27a18fc58b9ae8f384c6eea014e4af06aa6ca5142b33ddbed2f5bd0b0abe92a",
+      "Size": 4194304,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_minimap_frame.vert.spv",
+      "Hash": "33780a301f503cf115eceee3a6c9714758caea82eab2ba260adc2660f7fc1f1f",
+      "Size": 2968,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_minimap_icons.bin",
+      "Hash": "6b9eca6a8974d1baeb3d02377d4167cba5fb0ea50448c6ba6acf74539fbb4692",
+      "Size": 180612,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_player_arrow.rgba",
+      "Hash": "5602886a9822b8277cac4b46d1884d7bc5e46e989cec7428f7a21a94483c4a4e",
+      "Size": 1048576,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_pois.bin",
+      "Hash": "fd53c84b7f8ce989fe3a9ea25c4dcf68ffe3d3cc16014e1c73b789dcdcd25031",
+      "Size": 9084,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_realmap_1024.rgba",
+      "Hash": "37e203453da1913179f593c2e75d2ff0394e754b7403eaef96af9b5257ecca81",
+      "Size": 4194304,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_realmap_1280.rgba",
+      "Hash": "41224fb4f69751badfd743e2cf8090f73271734b59ec65acebe164f8da8f229b",
+      "Size": 6553600,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/embervale_realmap_512.rgba",
+      "Hash": "743f5efcc9a6441a7da0a6a08118fb499da11d864d4797e3ec397fb5f99ec5ce",
+      "Size": 1048576,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/minimap_mod.dll",
+      "Hash": "34be7495e7e73e8eee4bcc017d10a0a927807735f3687a5af0478d757527fde7",
+      "Size": 330240,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/mod.json",
+      "Hash": "0d4aed65390afec919506a1c6e8adfbca7668c6206e99ed2ea0096024beb3f35",
+      "Size": 987,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/minimap_mod/src/mod.lua",
+      "Hash": "141e48c2a4c877b173ea355f2502ce36d291cf208a0b725290eb4c2fd897008d",
+      "Size": 329,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/mod.json",
+      "Hash": "1de3db13b5409a0c8be74b0d2afe4a6fc4233c4e0fc15d6e36299e1c53fc4c5e",
+      "Size": 340,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "1de3db13b5409a0c8be74b0d2afe4a6fc4233c4e0fc15d6e36299e1c53fc4c5e",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/assets/sonido_blink.raw",
+      "Hash": "0cd93e20d70d693b15360972be7a8a3943d4fddf88dfa136c11b24df4b8b7830",
+      "Size": 105840,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "0cd93e20d70d693b15360972be7a8a3943d4fddf88dfa136c11b24df4b8b7830",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/assets/sonido_blink.wav",
+      "Hash": "2d384aa45b0e71e83df8d1096d6f32d58042280bad8dbdf56cbf8b0ef99e0ac9",
+      "Size": 105884,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "2d384aa45b0e71e83df8d1096d6f32d58042280bad8dbdf56cbf8b0ef99e0ac9",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/assets/sonido_pcm_s16le_mono_44100.raw",
+      "Hash": "de4c59dcc9a10be3f8f9e724e8e3d04ad7d1133f89ec44de9af823f6d3dd487a",
+      "Size": 200704,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "de4c59dcc9a10be3f8f9e724e8e3d04ad7d1133f89ec44de9af823f6d3dd487a",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/assets/sonido.wav",
+      "Hash": "fa14dcef7552c318d0f4b80daa3cf27d83877da76234328b7848e222a85e8d9c",
+      "Size": 200782,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "fa14dcef7552c318d0f4b80daa3cf27d83877da76234328b7848e222a85e8d9c",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/src/mod.lua",
+      "Hash": "e91de259f8fbfa616f7ee63f06556b4ba96738a2249d7791e9a80c2660de6a94",
+      "Size": 25840,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "3952e707d305400caa8f9f699da9fcc5708130470808905ee8151660acd7d4a9",
+      "Patch": "blink-mod"
+    },
+    {
+      "Path": "game/mods/ElectricBlink/src/sonido_pcm.lua",
+      "Hash": "bbd2274c99173405ce04b859c63916e51cd48a90763f7935afb0e33bd7e374fa",
+      "Size": 231897,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "b549fc07174936410b9b2e146e54c4310c1250c490ccaaeb3f8e18bc9b6cf238",
+      "Patch": "blink-sonido_pcm"
+    },
+    {
+      "Path": "game/mods/ElectricBlink/tools/build_sonido_assets.py",
+      "Hash": "32d797510e06f582810d956a95e449e6930ebd6c34e96f147558ec69a570230b",
+      "Size": 6999,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "32d797510e06f582810d956a95e449e6930ebd6c34e96f147558ec69a570230b",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/ElectricBlink/tools/raw_to_lua_pcm.py",
+      "Hash": "0bf2d15866016f9949e504813095884aa5b2f7bcac8278565fb39f5300806d5c",
+      "Size": 1917,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "blink",
+      "OriginalHash": "0bf2d15866016f9949e504813095884aa5b2f7bcac8278565fb39f5300806d5c",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/HoardersHelper/mod.json",
+      "Hash": "8faa9ca1ea972988139d5da6f0f3a4adc69d39b1cc5c5a771cb19360240f003d",
+      "Size": 136,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "hoarder",
+      "OriginalHash": "8faa9ca1ea972988139d5da6f0f3a4adc69d39b1cc5c5a771cb19360240f003d",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/HoardersHelper/Readme.md",
+      "Hash": "a46c2744e189a5cd4faa470af2e87178231cd0b619108335ad1be11bd1293db2",
+      "Size": 2199,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "hoarder",
+      "OriginalHash": "a46c2744e189a5cd4faa470af2e87178231cd0b619108335ad1be11bd1293db2",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/HoardersHelper/src/HoardersHelperConfig.lua",
+      "Hash": "e5a98793050642b83c8669e795013b773c9660235f730e8f0f702394dfd13987",
+      "Size": 1268,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "hoarder",
+      "OriginalHash": "e5a98793050642b83c8669e795013b773c9660235f730e8f0f702394dfd13987",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/HoardersHelper/src/mod.lua",
+      "Hash": "2b5f3b087508a484dd907de457446903873171106bd5ac06061e04a282dd6253",
+      "Size": 15756,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "hoarder",
+      "OriginalHash": "3c8d484f33386ff7ae3216439c993bb292803ca614108168a23c647c2822553a",
+      "Patch": "hoarder-mod"
+    },
+    {
+      "Path": "game/mods/XHL-Auto-Loot/config.txt",
+      "Hash": "15eb01a7d80be8cf0c4f4915af569c65efe4c98831db4a1b57c3af86a6bd2e83",
+      "Size": 1120,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "auto-loot",
+      "OriginalHash": "15eb01a7d80be8cf0c4f4915af569c65efe4c98831db4a1b57c3af86a6bd2e83",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Auto-Loot/mod.json",
+      "Hash": "1679cee9f2344b9980e6dffec04c144cd35bd214ede494a9d1a522495f6bc421",
+      "Size": 434,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "auto-loot",
+      "OriginalHash": "1679cee9f2344b9980e6dffec04c144cd35bd214ede494a9d1a522495f6bc421",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Auto-Loot/native-plugin.ini",
+      "Hash": "e072232be04e69613cdac46a900dd44636188d3b0e8d54d7efe36692e8947448",
+      "Size": 41,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "auto-loot",
+      "OriginalHash": "e072232be04e69613cdac46a900dd44636188d3b0e8d54d7efe36692e8947448",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Auto-Loot/XHL-Auto-Loot.dll",
+      "Hash": "d5d8762ba58e8eec242c56c10c5c350cf24d29f86f7ecddf15061a15becb6101",
+      "Size": 60905,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "auto-loot",
+      "OriginalHash": "d5d8762ba58e8eec242c56c10c5c350cf24d29f86f7ecddf15061a15becb6101",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Auto-Loot/src/mod.lua",
+      "Hash": "a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773",
+      "Size": 12771,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "auto-loot",
+      "OriginalHash": "a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/Ember_ReadMe.md",
+      "Hash": "21a393d007f09bc378abbf62bc5726a7223fac26c4c557a7a9b30cfbb838cc53",
+      "Size": 12938,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "21a393d007f09bc378abbf62bc5726a7223fac26c4c557a7a9b30cfbb838cc53",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/mod.json",
+      "Hash": "3079ee3be6232d8b325a1c49c7484fd2e485e551e4e62b9b1096c07219b12168",
+      "Size": 290,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "3079ee3be6232d8b325a1c49c7484fd2e485e551e4e62b9b1096c07219b12168",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Logging.lua",
+      "Hash": "64db49b8a4e0790ff4f5481664897ebefbda41401f237270397a4bd17182fbda",
+      "Size": 1754,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "64db49b8a4e0790ff4f5481664897ebefbda41401f237270397a4bd17182fbda",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/mod.lua",
+      "Hash": "0c69ab61cdc1e4bf7b2b3b29568fc4fd54dd051f705e0e6310fc2572b9ae2f50",
+      "Size": 3299,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "0c69ab61cdc1e4bf7b2b3b29568fc4fd54dd051f705e0e6310fc2572b9ae2f50",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/User_Config_Overrides_Template.lua",
+      "Hash": "9b0313c02e2a805c8bb7042cae15e1ab6001f79d7a7b71dc4d39b93e8d5f1544",
+      "Size": 977,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "9b0313c02e2a805c8bb7042cae15e1ab6001f79d7a7b71dc4d39b93e8d5f1544",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/User_Config_Overrides.lua",
+      "Hash": "f2100442377d75209262675b3a1b8b98abf70d1c5a4db4894b23a461a8a02c43",
+      "Size": 1121,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Utilities.lua",
+      "Hash": "ea37bd57d2599d5b85cee1044c17b20021487bbc49223fe97ecf2086536adea6",
+      "Size": 637,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "ea37bd57d2599d5b85cee1044c17b20021487bbc49223fe97ecf2086536adea6",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Block_Replacer_Config.lua",
+      "Hash": "bcddb44b5a94d411f1ce27d6e789a2b75e10018b4d8d8b36170cce404139f51d",
+      "Size": 2315,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "bcddb44b5a94d411f1ce27d6e789a2b75e10018b4d8d8b36170cce404139f51d",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Crafting_Tweaks_Config.lua",
+      "Hash": "e99b0710d2a8ec013980f4db2a62022e442dc637728e80cc7e5a640c30204168",
+      "Size": 478,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "e99b0710d2a8ec013980f4db2a62022e442dc637728e80cc7e5a640c30204168",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Custom_Blueprint_Config.lua",
+      "Hash": "71087f9932a6ce41cf2002b475ef157442fb9acf6ebcef08c3372072f6beec26",
+      "Size": 3408,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "71087f9932a6ce41cf2002b475ef157442fb9acf6ebcef08c3372072f6beec26",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Debug_Level.lua",
+      "Hash": "78ca83e38f1afb0a6b1d250eeb52c92fc44777f5692409e44b9398cc172192e9",
+      "Size": 235,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "78ca83e38f1afb0a6b1d250eeb52c92fc44777f5692409e44b9398cc172192e9",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Ember_Config.lua",
+      "Hash": "1c7560b5fbbc8d4bf28508efbef1403b2dcb2e2036323acc3621cf9658ca3d54",
+      "Size": 5079,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "1c7560b5fbbc8d4bf28508efbef1403b2dcb2e2036323acc3621cf9658ca3d54",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/ExpandedGameSettings_Config.lua",
+      "Hash": "e5a5440370fda7583be920df932b671b25ec3e53f6dee4b9c6930258467c1a89",
+      "Size": 3568,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "e5a5440370fda7583be920df932b671b25ec3e53f6dee4b9c6930258467c1a89",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Fishing_Tweaks_Config.lua",
+      "Hash": "74f9b2e8bfee027d9ae4af8c2b3822173f8a8e1436d476e86bd2c50476e15f6f",
+      "Size": 2336,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "74f9b2e8bfee027d9ae4af8c2b3822173f8a8e1436d476e86bd2c50476e15f6f",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Fog_Tweaks_Config.lua",
+      "Hash": "0871f7901d8f7480ad7726a9162fc2f74feb2b2932c53e177e9fbde419b82407",
+      "Size": 3226,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "0871f7901d8f7480ad7726a9162fc2f74feb2b2932c53e177e9fbde419b82407",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Gem_Tweaks_Config.lua",
+      "Hash": "d5af7de79d48953f4cc8dc6b95a834a28dd635d0fd6d7c1be6e3cc7ddaa5f14a",
+      "Size": 997,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "d5af7de79d48953f4cc8dc6b95a834a28dd635d0fd6d7c1be6e3cc7ddaa5f14a",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Glider_Stats_Config.lua",
+      "Hash": "6d7f2a5a672ec4bc656f642b632dc25f115e09076f4491edaf24ab6d812be4b9",
+      "Size": 3828,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "6d7f2a5a672ec4bc656f642b632dc25f115e09076f4491edaf24ab6d812be4b9",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Loot_Tweaks_Config.lua",
+      "Hash": "c79a94b56d3cd1193f9bebbe3c6c2e824a25cd47358c0e7d1af7fd2ff9b489f7",
+      "Size": 852,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "c79a94b56d3cd1193f9bebbe3c6c2e824a25cd47358c0e7d1af7fd2ff9b489f7",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Map_Tweaks_Config.lua",
+      "Hash": "bbaa53f377d0064766e6c0d4288b78185063b682ab2861e514130b760100154b",
+      "Size": 1251,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "bbaa53f377d0064766e6c0d4288b78185063b682ab2861e514130b760100154b",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/SkillTweaks_Updraft_Config.lua",
+      "Hash": "a7dd07f9b296b840435b98e07ed0eff8ef34d08cb7dd24f18503d2b83d5c147b",
+      "Size": 1786,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "a7dd07f9b296b840435b98e07ed0eff8ef34d08cb7dd24f18503d2b83d5c147b",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Terraforming_Tweaks_Config.lua",
+      "Hash": "b73d92979cf77b514f856ac7f7f95fa014e4cf31f210b2827db277b9921750e7",
+      "Size": 4238,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "b73d92979cf77b514f856ac7f7f95fa014e4cf31f210b2827db277b9921750e7",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Config/Terrain_Replacer_Config.lua",
+      "Hash": "1b593ae57638538e2dc7d01cb0b9068fd4d7b94850ff8c78d9020290fbbc8123",
+      "Size": 4454,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "1b593ae57638538e2dc7d01cb0b9068fd4d7b94850ff8c78d9020290fbbc8123",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Block_Replacer.lua",
+      "Hash": "91a3ce67ab7b1966a1661e7e7ce59dd879dc2df56ddd75ad3e6832b8613f7e64",
+      "Size": 3681,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "91a3ce67ab7b1966a1661e7e7ce59dd879dc2df56ddd75ad3e6832b8613f7e64",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Buff_Tweaks.lua",
+      "Hash": "2d88e8c4111f25d794054ddf3d04fee540880f1b0b26f34a4a2b0014eaa79baf",
+      "Size": 1396,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "2d88e8c4111f25d794054ddf3d04fee540880f1b0b26f34a4a2b0014eaa79baf",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Building_Tweaks.lua",
+      "Hash": "a50ebd0cad58763f597128ca98e59a61b928920fe913b6716d7fb48731b6b216",
+      "Size": 6907,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "a50ebd0cad58763f597128ca98e59a61b928920fe913b6716d7fb48731b6b216",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Building_Zone_Size.lua",
+      "Hash": "6b9417bb0857abf69ae614325890a79e00d9e26a1599e8c318d01d0c35d070d2",
+      "Size": 3519,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "6b9417bb0857abf69ae614325890a79e00d9e26a1599e8c318d01d0c35d070d2",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Crafting_Tweaks.lua",
+      "Hash": "e4476a881fa75491011a2a89d160e7b39ae66d2b6d0857266c1f28d4016bcfa7",
+      "Size": 5627,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "e4476a881fa75491011a2a89d160e7b39ae66d2b6d0857266c1f28d4016bcfa7",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Custom_Blueprints.lua",
+      "Hash": "a22885032f1a268c533858f6c09543e49c87292d8dfeb58b07cfb5173206e7ca",
+      "Size": 14057,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "a22885032f1a268c533858f6c09543e49c87292d8dfeb58b07cfb5173206e7ca",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/ExpandedGameSettings.lua",
+      "Hash": "17cf4fc53cd31d6db107499291b7fb6d4db72d749bb62377e49337eec3d5eee3",
+      "Size": 14536,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "17cf4fc53cd31d6db107499291b7fb6d4db72d749bb62377e49337eec3d5eee3",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Extended_Magic_Storage.lua",
+      "Hash": "98fd52c0c66d14e3f8432faaf76159b55af15ba8183ab904d1c4cf9cb3a55ba6",
+      "Size": 5569,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "98fd52c0c66d14e3f8432faaf76159b55af15ba8183ab904d1c4cf9cb3a55ba6",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Fishing_Tweaks.lua",
+      "Hash": "cd385394df57cb9dc5dda196f36d21bc5e1e8e20fbb17b0007f6f789276610a2",
+      "Size": 2977,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "cd385394df57cb9dc5dda196f36d21bc5e1e8e20fbb17b0007f6f789276610a2",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Flame_Altar_Tweaks.lua",
+      "Hash": "0c680b5a2df21626d5b53c2ca3d6e7cd0a165c3e26e82b4a74fd6a1b859cfdbc",
+      "Size": 3832,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "0c680b5a2df21626d5b53c2ca3d6e7cd0a165c3e26e82b4a74fd6a1b859cfdbc",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Fog_Tweaks.lua",
+      "Hash": "70427e972cd88e1f0eea27ac773d9989f39e4bf2c8071afdec698fcbbcf71538",
+      "Size": 4545,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "70427e972cd88e1f0eea27ac773d9989f39e4bf2c8071afdec698fcbbcf71538",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Gem_Tweaks.lua",
+      "Hash": "cd72e6bbbd5ea289c4b46652baa4d97841e42ce1c1d95088d0ec8836991123c6",
+      "Size": 5713,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "cd72e6bbbd5ea289c4b46652baa4d97841e42ce1c1d95088d0ec8836991123c6",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Glider_Tweaks.lua",
+      "Hash": "412a5ceb0f10c8847c1276583d592669f8d80692ceed354949fa59d1a39e893f",
+      "Size": 3944,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "412a5ceb0f10c8847c1276583d592669f8d80692ceed354949fa59d1a39e893f",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Loot_Tweaks.lua",
+      "Hash": "1917c682299fe4a2e87cfe00f6ddc928c89a8902eed900a61381ce7ee1e72efe",
+      "Size": 9667,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "1917c682299fe4a2e87cfe00f6ddc928c89a8902eed900a61381ce7ee1e72efe",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Map_Tweaks.lua",
+      "Hash": "82058532018c2058c0d6d0b3f78f19c3b7b7d559f0adbd3ee019f07b03257ee2",
+      "Size": 3750,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "82058532018c2058c0d6d0b3f78f19c3b7b7d559f0adbd3ee019f07b03257ee2",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/No_Barriers.lua",
+      "Hash": "40445d853db5954073145faa018a45cc3441ba575294f6f750fd1a3e47b6ef8c",
+      "Size": 1581,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "40445d853db5954073145faa018a45cc3441ba575294f6f750fd1a3e47b6ef8c",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/No_Intro.lua",
+      "Hash": "1db661680a8266fb187ec2377cce755f11dbb9259af76a8b84b4175b374af94c",
+      "Size": 890,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "1db661680a8266fb187ec2377cce755f11dbb9259af76a8b84b4175b374af94c",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Progression_Tweaks.lua",
+      "Hash": "98bd81016fbf4252e84c4315e977e173433d26f58effb235ed16d54da86b4a34",
+      "Size": 7858,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "98bd81016fbf4252e84c4315e977e173433d26f58effb235ed16d54da86b4a34",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Shroud_Tweaks.lua",
+      "Hash": "768c7d97a3e7ff41e35b2e855eb653785e3996176565a9ca3b88b6976e4bbf31",
+      "Size": 1864,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "768c7d97a3e7ff41e35b2e855eb653785e3996176565a9ca3b88b6976e4bbf31",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/SkillTweaks_Updraft.lua",
+      "Hash": "4e2767e252811c8c0d4b9fc5bb30dfdd5134cdd1b11f3912c71a4efd081ba1aa",
+      "Size": 6092,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "4e2767e252811c8c0d4b9fc5bb30dfdd5134cdd1b11f3912c71a4efd081ba1aa",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Slope_Tweaks.lua",
+      "Hash": "b2440123a8961c91b5d047b551afa788bcdcf1ce0e8ec063812182a08d6240a7",
+      "Size": 2175,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "b2440123a8961c91b5d047b551afa788bcdcf1ce0e8ec063812182a08d6240a7",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Spell_Tweaks.lua",
+      "Hash": "7950b8d626da9e874c58fdffb364ad6019d76ff083d0d020722359cf5dfbaf8d",
+      "Size": 13102,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "7950b8d626da9e874c58fdffb364ad6019d76ff083d0d020722359cf5dfbaf8d",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Stack_Size_Tweaks.lua",
+      "Hash": "a93faef32c2f915b073df0f89e2479eaadae9ec08d1f36cc5fafa142aa6c602a",
+      "Size": 1368,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "a93faef32c2f915b073df0f89e2479eaadae9ec08d1f36cc5fafa142aa6c602a",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Terraforming_Tweaks.lua",
+      "Hash": "f370ee06259d1e0c0bbd25eab0f164f6e77c46ea5ca0fbfc51b8e3d520980596",
+      "Size": 5649,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "f370ee06259d1e0c0bbd25eab0f164f6e77c46ea5ca0fbfc51b8e3d520980596",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/Ember/src/Features/Terrain_Replacer.lua",
+      "Hash": "8ef45e3bf3f6c3e121a2e8854e1afc0b65adcc400b51675e7e92a6987d0f5519",
+      "Size": 1977,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "ember",
+      "OriginalHash": "8ef45e3bf3f6c3e121a2e8854e1afc0b65adcc400b51675e7e92a6987d0f5519",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Vein-Mining/config.txt",
+      "Hash": "cb3330917914ce3b1cafb443ac453e2b1b572bfd24ffca88fbd242a8256d0dd1",
+      "Size": 657,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "vein",
+      "OriginalHash": "cb3330917914ce3b1cafb443ac453e2b1b572bfd24ffca88fbd242a8256d0dd1",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Vein-Mining/mod.json",
+      "Hash": "d5402766523232348b81248dfbe18c53d1e25faeedeba799009ffa4933fae749",
+      "Size": 577,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "vein",
+      "OriginalHash": "d5402766523232348b81248dfbe18c53d1e25faeedeba799009ffa4933fae749",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Vein-Mining/native-plugin.ini",
+      "Hash": "799dd0b7bbe1ece75d346b891d076dc22d115454779d762771a27af7e9ddea8d",
+      "Size": 43,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "vein",
+      "OriginalHash": "799dd0b7bbe1ece75d346b891d076dc22d115454779d762771a27af7e9ddea8d",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Vein-Mining/XHL-Vein-Mining.dll",
+      "Hash": "6e1d953a09000915ed0218ff4b947b7abc9707e1c027fdddf5a72f65036d23f1",
+      "Size": 293888,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "vein",
+      "OriginalHash": "6d31c439fda536aad2078683a244e2d05f685e5e3fba2d5467950fff613f5bcc",
+      "Patch": "vein-XHL-Vein-Mining"
+    },
+    {
+      "Path": "game/mods/XHL-Vein-Mining/src/mod.lua",
+      "Hash": "1cbabd125b4204c1165ca0748b2fe627f4f88fa0e2ded2f31f13af42473a5d7d",
+      "Size": 3176,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "vein",
+      "OriginalHash": "1cbabd125b4204c1165ca0748b2fe627f4f88fa0e2ded2f31f13af42473a5d7d",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Grappling-Hook-Pull-2x/config.txt",
+      "Hash": "2d7ca4ec71caaf2b6684bb354feb5018aec45f497e3168eaf59f0bc305718f3c",
+      "Size": 65,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "grapple",
+      "OriginalHash": "2d7ca4ec71caaf2b6684bb354feb5018aec45f497e3168eaf59f0bc305718f3c",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Grappling-Hook-Pull-2x/mod.json",
+      "Hash": "58b0964a7a5e3be1366c8685d416a7c8eac5e69b028ddbd6129c5e6bb5c415a8",
+      "Size": 286,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "grapple",
+      "OriginalHash": "58b0964a7a5e3be1366c8685d416a7c8eac5e69b028ddbd6129c5e6bb5c415a8",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Grappling-Hook-Pull-2x/src/mod.lua",
+      "Hash": "02b2d0cf4ff4bb03da401c64103ce3be0ce056c3b6a09f34bcb13d7ec2a6e9b9",
+      "Size": 6693,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "grapple",
+      "OriginalHash": "02b2d0cf4ff4bb03da401c64103ce3be0ce056c3b6a09f34bcb13d7ec2a6e9b9",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Unlimited-Gifting-Range/mod.json",
+      "Hash": "4d13d6441324cd745589417a7c773f34bb31395294dfce858ef356f827ef0c98",
+      "Size": 243,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "gifting",
+      "OriginalHash": "4d13d6441324cd745589417a7c773f34bb31395294dfce858ef356f827ef0c98",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Unlimited-Gifting-Range/native-plugin.ini",
+      "Hash": "ad160df23635d03e45e7d5482c035c740565b4d80eec30e646980fb3dece28b5",
+      "Size": 55,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "gifting",
+      "OriginalHash": "ad160df23635d03e45e7d5482c035c740565b4d80eec30e646980fb3dece28b5",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Unlimited-Gifting-Range/XHL-Unlimited-Gifting-Range.dll",
+      "Hash": "95b0fca887688bfe7bddd2bf6f6d5ce680fbecb50299b78b95cc1648a1c2ecb0",
+      "Size": 56635,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "gifting",
+      "OriginalHash": "95b0fca887688bfe7bddd2bf6f6d5ce680fbecb50299b78b95cc1648a1c2ecb0",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Unlimited-Gifting-Range/src/mod.lua",
+      "Hash": "846915c0754d2e77711e2c075713cfcefb4b694a1e4e9a2b5726aba85d416cf9",
+      "Size": 223,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "gifting",
+      "OriginalHash": "846915c0754d2e77711e2c075713cfcefb4b694a1e4e9a2b5726aba85d416cf9",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Max-Stack-65535/config.txt",
+      "Hash": "7a826357112cd5b2cfa9b629fa005cf2233caa283e650db42d5c8e0a072d76a1",
+      "Size": 61,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "max-stack",
+      "OriginalHash": "7a826357112cd5b2cfa9b629fa005cf2233caa283e650db42d5c8e0a072d76a1",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Max-Stack-65535/mod.json",
+      "Hash": "a949aa4690fd1df9a6c1bbad8934837855d327bf1393b09d0c44c47b440de16f",
+      "Size": 280,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "max-stack",
+      "OriginalHash": "a949aa4690fd1df9a6c1bbad8934837855d327bf1393b09d0c44c47b440de16f",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Max-Stack-65535/src/mod.lua",
+      "Hash": "3b4ca0196e16a4a454f0a6e9e5eaf9da9f62e25724cf44eb57a10c1f653f0ca6",
+      "Size": 3552,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "max-stack",
+      "OriginalHash": "3b4ca0196e16a4a454f0a6e9e5eaf9da9f62e25724cf44eb57a10c1f653f0ca6",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Rested-Enhanced/config.txt",
+      "Hash": "a5df56bd4ff3c2775fea170785f736d3fba522dbf870bf8b994816d22b3f57af",
+      "Size": 381,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "rested",
+      "OriginalHash": "a5df56bd4ff3c2775fea170785f736d3fba522dbf870bf8b994816d22b3f57af",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Rested-Enhanced/mod.json",
+      "Hash": "9e03510ee4bb61fb772530aaa3c66cd13a51e530b8efdca263450008c3f79e01",
+      "Size": 235,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "rested",
+      "OriginalHash": "9e03510ee4bb61fb772530aaa3c66cd13a51e530b8efdca263450008c3f79e01",
+      "Patch": null
+    },
+    {
+      "Path": "game/mods/XHL-Rested-Enhanced/src/mod.lua",
+      "Hash": "14d8c0e16f748095c832ce345db844e76541002330bb91f1c4815e407a119a76",
+      "Size": 33956,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "rested",
+      "OriginalHash": "14d8c0e16f748095c832ce345db844e76541002330bb91f1c4815e407a119a76",
+      "Patch": null
+    },
+    {
+      "Path": "variants/xhl-dinput8.dll",
+      "Hash": "59a70221415fe31026d5831a56a2f03983c79b1d1501e611142f76293019587f",
+      "Size": 60775,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "xhl-host",
+      "OriginalHash": "59a70221415fe31026d5831a56a2f03983c79b1d1501e611142f76293019587f",
+      "Patch": null
+    },
+    {
+      "Path": "variants/eml-dbghelp.dll",
+      "Hash": "7a1334fadbcf68fa3099d6757ad3e110d7196945cf3a2b102e44f451d0295dcd",
+      "Size": 20708878,
+      "Download": "eml-dbghelp",
+      "ArchivePath": null
+    },
+    {
+      "Path": "variants/rested-with-hoarder.lua",
+      "Hash": "3123d2d0bb9c38a39a30adc1b9979306c009576cce1a04654cf38be31619e29e",
+      "Size": 34100,
+      "Download": null,
+      "ArchivePath": null,
+      "Import": "rested",
+      "OriginalHash": "14d8c0e16f748095c832ce345db844e76541002330bb91f1c4815e407a119a76",
+      "Patch": "rested-hoarder"
+    },
+    {
+      "Path": "notices/More-Cheese.txt",
+      "Hash": "215ff83cb901abfbf69593df5f481db0cce16d83e502057a0ec1d20f901578d6",
+      "Size": 1707,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "tools/emm.exe",
+      "Hash": "168a6ffe2688a2c5408847654409e024512c9926dfb91653d1fdfe3832154280",
+      "Size": 21424552,
+      "Download": "eml-patcher",
+      "ArchivePath": null
+    },
+    {
+      "Path": "variants/shroudtopia-winmm.dll",
+      "Hash": "2519ab074597c39f9241456711370cac907e86957833a7ae16705714ce6d7297",
+      "Size": 120832,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "notices/Shroudtopia-MIT.txt",
+      "Hash": "491d66efe4635417224dec65b8df6e08565068b8c204a78a45fa4effab17c987",
+      "Size": 1092,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "notices/Minimap-MIT.txt",
+      "Hash": "491d66efe4635417224dec65b8df6e08565068b8c204a78a45fa4effab17c987",
+      "Size": 1092,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "notices/README.txt",
+      "Hash": "d70be81509a8ec52b30157e00bea80575cfeb1f7e1ad57f4c40dfdfc8a83db5a",
+      "Size": 5991,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "notices/EML-LICENSE.txt",
+      "Hash": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+      "Size": 35148,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "notices/OptiScaler-LICENSE.txt",
+      "Hash": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "Size": 35149,
+      "Download": null,
+      "ArchivePath": null
+    }
+  ],
+  "Downloads": [
+    {
+      "Id": "opti",
+      "Name": "OptiScaler 0.9.4",
+      "Url": "https://github.com/optiscaler/OptiScaler/releases/download/v0.9.4/Optiscaler_0.9.4-final.20260718._MM.7z",
+      "Hash": "575cb4df866116093df75af607e37fd70e10f5163e0f23fd5c804142e80ef0ad",
+      "Size": 55016448,
+      "Extension": ".7z"
+    },
+    {
+      "Id": "eml-loader",
+      "Name": "EML 0.1.2 loader",
+      "Url": "https://github.com/Brabb3l/kfc-parser/releases/download/v0.1.2/dinput8.dll",
+      "Hash": "9512c01b92ba6291381282ed95ee1ac3b4b08697296f43cf4f00c823431e1156",
+      "Size": 20669938,
+      "Extension": ".dll"
+    },
+    {
+      "Id": "eml-patcher",
+      "Name": "EML 0.1.2 patcher",
+      "Url": "https://github.com/Brabb3l/kfc-parser/releases/download/v0.1.2/emm.exe",
+      "Hash": "168a6ffe2688a2c5408847654409e024512c9926dfb91653d1fdfe3832154280",
+      "Size": 21424552,
+      "Extension": ".exe"
+    },
+    {
+      "Id": "archive-tool",
+      "Name": "7-Zip extraction helper 26.03",
+      "Url": "https://github.com/ip7z/7zip/releases/download/26.03/7zr.exe",
+      "Hash": "ad4c82fadcbdf93c03b4fc440f300509c7d60c5c2f4d183e35d9d70d6957037d",
+      "Size": 602624,
+      "Extension": ".exe"
+    },
+    {
+      "Id": "vc-runtime",
+      "Name": "Microsoft Visual C++ x64 runtime 14.51.36247",
+      "Url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+      "Hash": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+      "Size": 18731856,
+      "Extension": ".exe"
+    },
+    {
+      "Id": "eml-dbghelp",
+      "Name": "EML 0.1.2 dbghelp loader",
+      "Url": "https://github.com/Brabb3l/kfc-parser/releases/download/v0.1.2/dbghelp.dll",
+      "Hash": "7a1334fadbcf68fa3099d6757ad3e110d7196945cf3a2b102e44f451d0295dcd",
+      "Size": 20708878,
+      "Extension": ".dll"
+    }
+  ]
+}

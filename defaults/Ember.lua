@@ -1,0 +1,36 @@
+-- Shared Normal and Cheeze profile: magic storage, buffs and building.
+Enable_BaseSizeTweaks = false
+Enable_BlockMaterialReplacer = false
+Enable_BlueprintInjector = false
+Enable_BuffReapplication = true
+Enable_BuildingTweaks = true
+Enable_CraftingTweaks = false
+Enable_ExpandedGameSettings = false
+Enable_FastTravelTweaks = false
+Enable_Fishing_Tweaks = false
+Enable_FlameAltarTweaks = false
+Enable_FogOfWarTweaks = false
+Enable_FogTweaks = false
+Enable_GemTweaks = false
+Enable_GliderTuning = false
+Enable_ItemLevelCapSync = false
+Enable_LootTweaks = false
+Enable_MagicFactories = true
+Enable_MagicFurniture = true
+Enable_NoBarriers = false
+Enable_NoIntroVideo = false
+Enable_PlacementTweaks = true
+Enable_PlayerItemLevelTweaks = false
+Enable_ShroudTimerTweaks = false
+Enable_SkillPointsPerLevel = false
+Enable_SkillTweaks_Updraft = false
+Enable_SlopeTweaks = false
+Enable_SpellTweaks = false
+Enable_StackSizeTweaks = false
+Enable_TerraformingTweaks = false
+Enable_TerrainDropTweaks = false
+Enable_VoxelMaterialReplacer = false
+LOG_LEVEL = 1
+
+PlacementTweaks_BuildInFog = true
+PlacementTweaks_NoBuildZoneNeeded = false

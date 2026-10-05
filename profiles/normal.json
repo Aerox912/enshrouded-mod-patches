@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "normal",
+  "client": [
+    "blink",
+    "hoarder",
+    "ember",
+    "shroudscaler",
+    "minimap",
+    "first-person",
+    "shroudtopia",
+    "eml",
+    "optiscaler"
+  ],
+  "server": [
+    "ember",
+    "global-xp",
+    "eml"
+  ],
+  "emberFeatures": [
+    "Enable_MagicFurniture",
+    "Enable_MagicFactories",
+    "Enable_BuffReapplication",
+    "Enable_BuildingTweaks",
+    "Enable_PlacementTweaks"
+  ],
+  "emberBuildInFog": true,
+  "emberAltarRequired": true,
+  "serverSettings": {},
+  "serverDllOverrides": {
+    "dbghelp": "native,builtin"
+  }
+}

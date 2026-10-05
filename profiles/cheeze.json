@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "cheeze",
+  "client": [
+    "blink",
+    "hoarder",
+    "ember",
+    "vein",
+    "auto-loot",
+    "max-stack",
+    "gifting",
+    "rested",
+    "grapple",
+    "shroudscaler",
+    "xhl-host",
+    "minimap",
+    "first-person",
+    "shroudtopia",
+    "eml",
+    "optiscaler"
+  ],
+  "server": [
+    "ember",
+    "vein",
+    "auto-loot",
+    "max-stack",
+    "gifting",
+    "rested",
+    "grapple",
+    "global-xp",
+    "eml",
+    "server-adapter"
+  ],
+  "emberFeatures": [
+    "Enable_MagicFurniture",
+    "Enable_MagicFactories",
+    "Enable_BuffReapplication",
+    "Enable_BuildingTweaks",
+    "Enable_PlacementTweaks"
+  ],
+  "emberBuildInFog": true,
+  "emberAltarRequired": true,
+  "serverSettings": {
+    "gameSettingsPreset": "Custom",
+    "gameSettings": {
+      "enableDurability": false
+    }
+  },
+  "serverDllOverrides": {
+    "dbghelp": "native,builtin"
+  }
+}
