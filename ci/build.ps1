@@ -4,7 +4,7 @@ python -m unittest -v
 if($LASTEXITCODE) { throw 'Patch tests failed' }
 python -m pip install --disable-pip-version-check pyinstaller==6.16.0
 if($LASTEXITCODE) { throw 'Build dependency install failed' }
-python -m PyInstaller --clean --noconfirm --onefile --name PatchTool --add-data 'patches;patches' --add-data 'catalog.json;.' --add-data 'profiles;profiles' patcher.py
+python -m PyInstaller --clean --noconfirm --onefile --name PatchTool --add-data 'patches;patches' --add-data 'catalog.json;.' --add-data 'profiles;profiles' --add-data 'defaults;defaults' patcher.py
 if($LASTEXITCODE) { throw 'Patch utility build failed' }
 $stage='build/package'
 New-Item -ItemType Directory $stage -Force | Out-Null

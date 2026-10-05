@@ -6,6 +6,7 @@ import importlib.util
 import json
 import re
 import sys
+import zipfile
 from pathlib import Path
 
 ROOT = Path(getattr(sys, '_MEIPASS', Path(__file__).resolve().parent))
@@ -76,15 +77,74 @@ def patch(name, source, destination):
         destination.parent.mkdir(parents=True, exist_ok=True)
         with destination.open('xb') as output: output.write(result)
 
+def safe(root, relative):
+    path = Path(relative)
+    if path.is_absolute() or '..' in path.parts or ':' in relative or '\\' in relative:
+        raise ValueError('Unsafe package path')
+    result = root/path
+    if not result.resolve().is_relative_to(root.resolve()): raise ValueError('Path escapes package')
+    return result
+
+def find_original(directory, spec):
+    # Accept author ZIP layouts by verified content, never by an unchecked filename.
+    for archive in sorted(directory.glob('*.zip')):
+        with zipfile.ZipFile(archive) as z:
+            for item in z.infolist():
+                if item.file_size != spec['size'] or item.file_size > 64*1024*1024: continue
+                if Path(item.filename).name != Path(spec['path']).name: continue
+                data=z.read(item)
+                if digest(data)==spec['sha256']:return data
+    for item in directory.rglob(Path(spec['path']).name):
+        if item.is_file() and not item.is_symlink() and item.stat().st_size==spec['size']:
+            data=item.read_bytes()
+            if digest(data)==spec['sha256']:return data
+    raise ValueError('Missing verified original: '+spec['path'])
+
+def server_profile(profile, originals, destination, adapter=None):
+    originals, destination=Path(originals),Path(destination)
+    if destination.exists():raise ValueError('Use a new staging directory')
+    catalog=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
+    selection=json.loads((ROOT/f'profiles/{profile}.json').read_text(encoding='utf-8'))
+    components={c['id']:c for c in catalog['components']}
+    files={}
+    for id in selection['server']:
+        c=components[id]
+        if c['distribution']!='original-import':continue
+        for spec in c['files']:
+            relative='mods/'+c['folder']+'/'+spec['path'] if c.get('folder') else ('dbghelp.dll' if profile=='normal' else 'GlobalXPShare.original.dll')
+            data=find_original(originals,spec)
+            if id=='rested' and spec['path']=='src/mod.lua':
+                recipe=json.loads((ROOT/'patches/recipes.json').read_text())['rested-server']
+                data=transform(recipe,data)
+            files[relative]=data
+    files['mods/Ember/src/User_Config_Overrides.lua']=(ROOT/'defaults/Ember.lua').read_bytes()
+    files['safeprobe_config.ini']=(ROOT/'defaults/safeprobe_config.ini').read_bytes()
+    if profile=='cheeze':
+        if not adapter:raise ValueError('Cheeze requires its matching dedicated-server adapter')
+        files['dbghelp.dll']=Path(adapter).read_bytes()
+    # Resolve every original before creating any output. Never touch a game folder.
+    for relative in files:safe(destination,relative)
+    destination.mkdir(parents=True)
+    for relative,data in files.items():
+        target=safe(destination,relative);target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+    manifest={relative:{'sha256':digest(data),'size':len(data)} for relative,data in files.items()}
+    (destination/'prepared-files.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+    print('Prepared '+profile+' server files. Apply EMM to matching clean server data before deployment.')
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest='command', required=True)
     apply = commands.add_parser('patch')
     apply.add_argument('recipe'); apply.add_argument('input'); apply.add_argument('output')
+    server=commands.add_parser('server')
+    server.add_argument('profile',choices=['normal','cheeze'])
+    server.add_argument('originals');server.add_argument('output');server.add_argument('--adapter')
     args = parser.parse_args()
     try:
-        patch(args.recipe, args.input, args.output)
-        print('Patch verified successfully. Original preserved.')
+        if args.command=='patch':
+            patch(args.recipe, args.input, args.output)
+            print('Patch verified successfully. Original preserved.')
+        else:server_profile(args.profile,args.originals,args.output,args.adapter)
         return 0
     except (OSError, ValueError, KeyError) as error:
         print('Patch stopped: ' + str(error), file=sys.stderr)
