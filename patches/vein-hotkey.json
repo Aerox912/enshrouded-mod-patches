@@ -1,0 +1,10 @@
+{
+  "version": "1.0.33",
+  "defaultKey": 192,
+  "hashes": ["6d31c439fda536aad2078683a244e2d05f685e5e3fba2d5467950fff613f5bcc", "6e1d953a09000915ed0218ff4b947b7abc9707e1c027fdddf5a72f65036d23f1"],
+  "sites": [
+    {"offset": 7248, "bytes": "b9c0000000ff158da304006685c0"},
+    {"offset": 11374, "bytes": "b9c0000000ff156f93040098"},
+    {"offset": 29096, "bytes": "b9c00000004889c6ff15324e04006685c0"}
+  ]
+}

@@ -21,6 +21,7 @@ def fingerprint(target, root=None):
  if target=='client':
   data['files']=json.loads((root/'client-files.json').read_text(encoding='utf-8-sig'));data['imports']=imports
   data['vein']=(root/'patches/localize-vein-mining.py').read_text(encoding='utf-8-sig');data['translation']=json.loads((root/'patches/vein-english.json').read_text(encoding='utf-8-sig'))
+  data['hotkeyDescriptor']=json.loads((root/'patches/vein-hotkey.json').read_text());data['hotkeyImplementation']=(root/'patches/vein-hotkeys.py').read_text()
  else:data['xpSettings']=(root/'defaults/safeprobe_config.ini').read_text(encoding='utf-8-sig')
  return hashlib.sha256(json.dumps(data,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 

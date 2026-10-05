@@ -136,6 +136,8 @@ def main():
     commands = parser.add_subparsers(dest='command', required=True)
     apply = commands.add_parser('patch')
     apply.add_argument('recipe'); apply.add_argument('input'); apply.add_argument('output')
+    hotkey=commands.add_parser('vein-key',help='Set the hold key in a verified XHL 1.0.33 client DLL')
+    hotkey.add_argument('input');hotkey.add_argument('output');hotkey.add_argument('--key',required=True,type=lambda value:int(value,0))
     server=commands.add_parser('server')
     server.add_argument('profile',choices=['normal','cheeze'])
     server.add_argument('originals');server.add_argument('output');server.add_argument('--adapter')
@@ -144,6 +146,16 @@ def main():
         if args.command=='patch':
             patch(args.recipe, args.input, args.output)
             print('Patch verified successfully. Original preserved.')
+        elif args.command=='vein-key':
+            source,destination=Path(args.input),Path(args.output)
+            if source.resolve()==destination.resolve() or destination.exists():raise ValueError('Use a new separate output file')
+            spec=importlib.util.spec_from_file_location('vein_hotkeys',ROOT/'patches/vein-hotkeys.py')
+            module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+            manifest=json.loads((ROOT/'patches/vein-hotkey.json').read_text())
+            result=module.rekey(source.read_bytes(),args.key,manifest)
+            destination.parent.mkdir(parents=True,exist_ok=True)
+            with destination.open('xb') as output:output.write(result)
+            print('Vein Mining key updated. Original preserved.')
         else:server_profile(args.profile,args.originals,args.output,args.adapter)
         return 0
     except (OSError, ValueError, KeyError) as error:
