@@ -8,6 +8,34 @@ Download originals from the author links in catalog.json. The Windows patch util
 
 The catalog records verified file hashes and game compatibility. Updating a dependency requires new hashes and revalidation; do not substitute an arbitrary newer original.
 
+## Fell Critter pickups with Auto Loot
+
+The `auto-loot-critters` patch for XHL Auto Loot 1.5.0 preserves normal manual
+pickup of Fell Critter remains, including the explosive variant. Upstream
+classifies their `LootPickup_Material_Critter_Parts` templates as material piles
+and removes their interaction prompts. The patch leaves those templates intact;
+other supported drops still use automatic pickup.
+
+Client imports and server package assembly both apply this verified patch. The
+native Auto Loot DLL and user settings are unchanged. Rebuild game data with EMM
+from the clean baseline and all selected mods before testing; replacing the Lua
+file alone does not update already-patched game data. Close the game or stop the
+server before applying an update, preserve its backup, and test newly defeated
+Fell Critters after restarting. Multiplayer installations need the matching
+client and server patch.
+
+To prepare the script separately without changing the original:
+
+```text
+PatchTool.exe patch auto-loot-critters original-mod.lua fixed-mod.lua
+```
+
+Offline checks against client revision 1076226 and server revision 1024233
+preserve both complete critter templates. Across 10,745 templates on each target,
+all other component lists match the upstream patch result, with 91 automatic
+pickup templates retained. This verifies the data patch; in-game pickup still
+requires acceptance testing.
+
 ## Vein Mining hold key
 
 The mod manager uses `patches/vein-hotkey.json` to configure the pinned 1.0.33

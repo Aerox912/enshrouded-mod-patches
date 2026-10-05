@@ -11,7 +11,7 @@ def fingerprint(target, root=None):
  keys=[target,'emberFeatures','emberBuildInFog','emberAltarRequired']+(['serverSettings','serverDllOverrides'] if target=='server' else [])
  data={'game':{k:v for k,v in catalog['game'].items() if k.startswith(target)},'components':selected,'profiles':[{k:p[k] for k in keys} for p in profiles]}
  imports=json.loads((root/'client-imports.json').read_text(encoding='utf-8-sig'))
- names={i['patch'] for i in imports if i['patch']} if target=='client' else {'rested-server'}
+ names={i['patch'] for i in imports if i['patch']} if target=='client' else {'rested-server','auto-loot-critters'}
  data['recipes']={name:recipes[name] for name in sorted(names)}
  data['ember']=(root/'defaults/Ember.lua').read_text(encoding='utf-8-sig')
  functions={'digest','transform','audio48k','patch'} if target=='client' else {'digest','transform','server_profile','find_original','safe'}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "game": {
     "clientDataRevision": 1076226,
     "clientSha256": "af2f5a1227911d8aa06b3908d6bd0211838211cae14ea91099cb57d0df990781",
@@ -457,7 +457,15 @@
           "sha256": "d5d8762ba58e8eec242c56c10c5c350cf24d29f86f7ecddf15061a15becb6101",
           "size": 60905
         }
-      ]
+      ],
+      "maintainedPatch": {
+        "recipe": "auto-loot-critters",
+        "purpose": "Preserve normal Fell Critter corpse interactions; other automatic loot remains enabled.",
+        "targets": [
+          "client",
+          "server"
+        ]
+      }
     },
     {
       "id": "max-stack",

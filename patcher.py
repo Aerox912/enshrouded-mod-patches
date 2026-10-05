@@ -113,8 +113,9 @@ def server_profile(profile, originals, destination, adapter=None):
         for spec in c['files']:
             relative='mods/'+c['folder']+'/'+spec['path'] if c.get('folder') else ('dbghelp.dll' if profile=='normal' else 'GlobalXPShare.original.dll')
             data=find_original(originals,spec)
-            if id=='rested' and spec['path']=='src/mod.lua':
-                recipe=json.loads((ROOT/'patches/recipes.json').read_text())['rested-server']
+            if spec['path']=='src/mod.lua' and id in ('rested','auto-loot'):
+                name='rested-server' if id=='rested' else 'auto-loot-critters'
+                recipe=json.loads((ROOT/'patches/recipes.json').read_text())[name]
                 data=transform(recipe,data)
             files[relative]=data
     files['mods/Ember/src/User_Config_Overrides.lua']=(ROOT/'defaults/Ember.lua').read_bytes()

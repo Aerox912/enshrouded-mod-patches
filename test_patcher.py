@@ -47,5 +47,22 @@ class PatchTests(unittest.TestCase):
             self.assertRegex(recipe['input'],r'^[0-9a-f]{64}$')
             self.assertRegex(recipe['output'],r'^[0-9a-f]{64}$')
             self.assertNotEqual(recipe['input'],recipe['output'])
+    def test_auto_loot_client_import_uses_matching_verified_patch(self):
+        catalog=json.loads((patcher.ROOT/'catalog.json').read_text())
+        component=next(c for c in catalog['components'] if c['id']=='auto-loot')
+        original=next(f for f in component['files'] if f['path']=='src/mod.lua')
+        imports=json.loads((patcher.ROOT/'client-imports.json').read_text())
+        entry=next(i for i in imports if i['component']=='auto-loot' and i['source']=='src/mod.lua')
+        recipe=json.loads((patcher.ROOT/'patches/recipes.json').read_text())[entry['patch']]
+        files=json.loads((patcher.ROOT/'client-files.json').read_text())['Files']
+        target=next(f for f in files if f['Path']==entry['target'])
+        self.assertEqual(entry['patch'],component['maintainedPatch']['recipe'])
+        self.assertEqual(target['Patch'],entry['patch'])
+        self.assertEqual(recipe['input'],original['sha256'])
+        self.assertEqual(entry['inputHash'],recipe['input'])
+        self.assertEqual(target['OriginalHash'],recipe['input'])
+        self.assertEqual(target['Hash'],recipe['output'])
+        delta=sum(len(base64.b64decode(e['data']))-e['remove'] for e in recipe['edits'])
+        self.assertEqual(target['Size'],original['size']+delta)
 
 if __name__=='__main__':unittest.main()

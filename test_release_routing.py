@@ -37,6 +37,10 @@ class ReleaseRouting(unittest.TestCase):
   with (self.root/'defaults/Ember.lua').open('a') as f:f.write('\n-- Shared profile revision\n')
   self.assertNotEqual(self.client,release_info.fingerprint('client',self.root))
   self.assertNotEqual(self.server,release_info.fingerprint('server',self.root))
+ def test_auto_loot_fix_triggers_clients_and_servers(self):
+  self.mutate_json('patches/recipes.json',lambda d:d['auto-loot-critters'].update(output='f'*64))
+  self.assertNotEqual(self.client,release_info.fingerprint('client',self.root))
+  self.assertNotEqual(self.server,release_info.fingerprint('server',self.root))
  def test_catalog_version_alone_triggers_neither(self):
   self.mutate_json('catalog.json',lambda d:d.update(version='999.0.0'))
   self.assertEqual(self.client,release_info.fingerprint('client',self.root))

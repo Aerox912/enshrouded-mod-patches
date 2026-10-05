@@ -130,7 +130,7 @@
     "component": "auto-loot",
     "source": "src/mod.lua",
     "inputHash": "a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773",
-    "patch": null
+    "patch": "auto-loot-critters"
   },
   {
     "target": "game/mods/Ember/Ember_ReadMe.md",

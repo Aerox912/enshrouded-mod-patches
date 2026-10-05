@@ -1,9 +1,39 @@
-import contextlib,io,json,tempfile,unittest,zipfile
+import base64,contextlib,io,json,tempfile,unittest,zipfile
 from pathlib import Path
 from unittest.mock import patch
 import patcher
 
 class ServerProfiles(unittest.TestCase):
+ def test_auto_loot_server_package_applies_verified_fix(self):
+  real=patcher.ROOT
+  with tempfile.TemporaryDirectory() as temp:
+   root=Path(temp);originals=root/'originals';originals.mkdir()
+   for directory in ['defaults','profiles','patches']:(root/directory).mkdir()
+   original=b'upstream auto loot fixture';fixed=b'fixed auto loot fixture'
+   source=originals/'mod.lua';source.write_bytes(original)
+   recipe={'kind':'delta','input':patcher.digest(original),'output':patcher.digest(fixed),
+           'edits':[{'offset':0,'remove':len(original),'data':base64.b64encode(fixed).decode()}]}
+   (root/'patches/recipes.json').write_text(json.dumps({'auto-loot-critters':recipe}))
+   component={'id':'auto-loot','folder':'XHL-Auto-Loot','distribution':'original-import',
+              'files':[{'path':'src/mod.lua','size':len(original),'sha256':patcher.digest(original)}]}
+   (root/'catalog.json').write_text(json.dumps({'components':[component]}))
+   (root/'profiles/cheeze.json').write_text(json.dumps({'server':['auto-loot']}))
+   (root/'adapter.dll').write_bytes(b'adapter fixture')
+   for name in ['Ember.lua','safeprobe_config.ini']:(root/'defaults'/name).write_bytes((real/'defaults'/name).read_bytes())
+   with patch.object(patcher,'ROOT',root),contextlib.redirect_stdout(io.StringIO()):
+    destination=root/'prepared'
+    patcher.server_profile('cheeze',originals,destination,root/'adapter.dll')
+    relative='mods/XHL-Auto-Loot/src/mod.lua'
+    self.assertEqual((destination/relative).read_bytes(),fixed)
+    self.assertEqual(source.read_bytes(),original)
+    manifest=json.loads((destination/'prepared-files.json').read_text())
+    self.assertEqual(manifest[relative],{'sha256':patcher.digest(fixed),'size':len(fixed)})
+    recipe['output']='0'*64
+    (root/'patches/recipes.json').write_text(json.dumps({'auto-loot-critters':recipe}))
+    with self.assertRaisesRegex(ValueError,'Patched file checksum mismatch'):
+     patcher.server_profile('cheeze',originals,root/'failed',root/'adapter.dll')
+    self.assertFalse((root/'failed').exists())
+    self.assertEqual(source.read_bytes(),original)
  def test_both_profiles_import_xp_without_rebuilding_it(self):
   real=patcher.ROOT
   with tempfile.TemporaryDirectory() as temp:

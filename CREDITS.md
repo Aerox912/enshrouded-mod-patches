@@ -6,6 +6,7 @@
 - **Vein Mining 1.0.33**: XHL. https://www.nexusmods.com/enshrouded/mods/129
 - **Optional Vein Mining activation helper**: Aerox912, MIT. Source and instructions: [native/vein-controls](native/vein-controls). Hold remains the default; Toggle and Always on are personal client settings.
 - **Auto Loot 1.5.0**: XHL. https://www.nexusmods.com/enshrouded/mods/130
+- **Auto Loot Fell Critter compatibility patch**: Aerox912, MIT patch code. Preserves manual critter pickup on client and server; requires the verified XHL original above.
 - **Max Stack 65535 1.0.3**: XHL. https://www.nexusmods.com/enshrouded/mods/127
 - **Unlimited Gifting Range 1.0.0**: XHL. https://www.nexusmods.com/enshrouded/mods/126
 - **Rested Enhanced 1.0.3**: XHL. https://www.nexusmods.com/enshrouded/mods/124

@@ -458,13 +458,13 @@
     },
     {
       "Path": "game/mods/XHL-Auto-Loot/src/mod.lua",
-      "Hash": "a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773",
-      "Size": 12771,
+      "Hash": "3bc87827993733ce4534678162cf0b1b1b58e374c11108e20a6dace9d9e40190",
+      "Size": 13078,
       "Download": null,
       "ArchivePath": null,
       "Import": "auto-loot",
       "OriginalHash": "a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773",
-      "Patch": null
+      "Patch": "auto-loot-critters"
     },
     {
       "Path": "game/mods/Ember/Ember_ReadMe.md",
