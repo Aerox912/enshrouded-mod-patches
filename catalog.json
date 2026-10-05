@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "game": {
     "clientDataRevision": 1076226,
     "clientSha256": "af2f5a1227911d8aa06b3908d6bd0211838211cae14ea91099cb57d0df990781",
@@ -799,7 +799,7 @@
     {
       "id": "server-adapter",
       "name": "Dedicated server compatibility adapter",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": "Aerox912",
       "url": "https://github.com/Aerox912/enshrouded-server-compat",
       "license": "MIT; MinHook BSD license retained",
@@ -812,11 +812,11 @@
       ],
       "artifacts": [
         {
-          "url": "https://github.com/Aerox912/enshrouded-server-compat/releases/download/v0.2.0/server-compat-0.2.0.dll",
-          "sha256": "240676a9259ffbd120bfab2886235b4791438293ebc0005831a6bb5db66c7b04",
+          "url": "https://github.com/Aerox912/enshrouded-server-compat/releases/download/v0.2.1/server-compat-0.2.1.dll",
+          "sha256": "34e2f2329e6c7b3bc508d1b3fd9ddd3f2969fa2bb577739f3e4ffba6b829ce1a",
           "size": 192000,
-          "commit": "9fcf5262b49d59fa1c19a556f77292e559f21c7e",
-          "tag": "v0.2.0"
+          "commit": "5d0d0bb1dd4b28197f2b718dc0f213c244416b4d",
+          "tag": "v0.2.1"
         }
       ]
     }
