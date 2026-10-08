@@ -364,16 +364,22 @@
     {
       "id": "vein",
       "name": "Vein Mining",
-        "maintainedClientInput": {
-          "name": "Optional Vein Mining activation modes",
-          "author": "Aerox912",
-          "license": "MIT",
-          "source": "https://github.com/Aerox912/enshrouded-mod-patches/tree/main/native/vein-controls",
-          "targets": ["client"],
-          "default": "hold",
-          "modes": ["hold", "toggle", "always"],
-          "requires": "Verified Vein Mining 1.0.33 original or maintained English translation"
-        },
+      "maintainedClientInput": {
+        "name": "Optional Vein Mining activation modes",
+        "author": "Aerox912",
+        "license": "MIT",
+        "source": "https://github.com/Aerox912/enshrouded-mod-patches/tree/main/native/vein-controls",
+        "targets": [
+          "client"
+        ],
+        "default": "hold",
+        "modes": [
+          "hold",
+          "toggle",
+          "always"
+        ],
+        "requires": "Verified Vein Mining 1.0.33 original or maintained English translation"
+      },
       "version": "1.0.33",
       "author": "XHL",
       "url": "https://www.nexusmods.com/enshrouded/mods/129",
@@ -837,6 +843,63 @@
           "tag": "v0.2.1"
         }
       ]
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop Speed 20x",
+      "version": "1.0.0",
+      "author": "XHL",
+      "url": "https://www.nexusmods.com/enshrouded/mods/123",
+      "distribution": "original-import",
+      "license": "Original author terms apply. Upstream mod.json declares MIT; retain the original metadata and author links.",
+      "targets": [
+        "client",
+        "server"
+      ],
+      "profiles": [
+        "normal",
+        "cheeze"
+      ],
+      "optional": true,
+      "folder": "XHL-Workshop-Speed-20x",
+      "files": [
+        {
+          "path": "mod.json",
+          "sha256": "9af6d409568b55d3347031c34ea323828326912ee841252707c29b43a619fdd5",
+          "size": 319
+        },
+        {
+          "path": "config.txt",
+          "sha256": "b7f4d3616d6e9d1dd8de0c7745ee651f03f4da0e90afe62ed52c6afc6ccc4a59",
+          "size": 146
+        },
+        {
+          "path": "src/mod.lua",
+          "sha256": "7e478cee0b837e987b580182e7fad62c686fd5a807635969df27ea6a2e513b61",
+          "size": 4049
+        }
+      ],
+      "compatibility": "Recipe-data patch; matching client and server settings required. Gameplay acceptance pending."
+    },
+    {
+      "id": "flight",
+      "name": "Always Flying toggle",
+      "version": "1.1.0",
+      "author": "s0T7x / Miguel Oppermann; maintained by Aerox912",
+      "url": "https://github.com/Aerox912/shroudtopia",
+      "distribution": "maintained-source",
+      "license": "MIT",
+      "targets": [
+        "client"
+      ],
+      "profiles": [
+        "normal",
+        "cheeze"
+      ],
+      "optional": true,
+      "source": "example-mods/flight_mod",
+      "compatibility": "Steam client 1076226; guarded native hook. Gameplay acceptance pending.",
+      "files": []
     }
   ],
   "resolution": "Package dependency locks override maintained-release versions; every assembled package must record its resolved artifact checksums and source commits."

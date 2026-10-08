@@ -21,7 +21,10 @@ class PatchTests(unittest.TestCase):
     def test_catalog_complete_and_scoped(self):
         catalog=json.loads((patcher.ROOT/'catalog.json').read_text())
         components={c['id']:c for c in catalog['components']}
-        self.assertEqual(len(components),18)
+        self.assertEqual(len(components),20)
+        self.assertEqual(components['flight']['targets'],['client'])
+        self.assertTrue(components['workshop']['optional'])
+        self.assertEqual(components['workshop']['targets'],['client','server'])
         self.assertEqual(components['global-xp']['targets'],['server'])
         self.assertEqual(components['global-xp']['distribution'],'original-import')
         for profile in ['normal','cheeze']:

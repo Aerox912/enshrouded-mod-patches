@@ -11,6 +11,8 @@
 - **Unlimited Gifting Range 1.0.0**: XHL. https://www.nexusmods.com/enshrouded/mods/126
 - **Rested Enhanced 1.0.3**: XHL. https://www.nexusmods.com/enshrouded/mods/124
 - **Grappling Hook Pull 2x 1.0.0**: XHL. https://www.nexusmods.com/enshrouded/mods/120
+- **Workshop Speed 20x 1.0.0** (optional): XHL. https://www.nexusmods.com/enshrouded/mods/123
+- **Always Flying toggle 1.1.0** (optional): s0T7x / Miguel Oppermann's MIT Shroudtopia Flight Mod, maintained by Aerox912. https://github.com/Aerox912/shroudtopia/tree/main/example-mods/flight_mod
 - **Shroudscaler 1.0.0**: VanDerx0x. https://www.nexusmods.com/enshrouded/mods/113
 - **XHL native host 1.0.33**: XHL. https://www.nexusmods.com/enshrouded/mods/129
 - **Global XP Share 1**: zShang12. https://www.nexusmods.com/enshrouded/mods/110

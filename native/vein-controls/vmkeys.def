@@ -3,9 +3,9 @@ EXPORTS
     GetAsyncKeyState=VeinKeyState
     BeginPaint=USER32.BeginPaint
     ClientToScreen=USER32.ClientToScreen
-    CreateWindowExW=USER32.CreateWindowExW
+    CreateWindowExW=VeinCreateWindowExW
     DefWindowProcW=USER32.DefWindowProcW
-    DestroyWindow=USER32.DestroyWindow
+    DestroyWindow=VeinDestroyWindow
     DispatchMessageW=USER32.DispatchMessageW
     EnableWindow=USER32.EnableWindow
     EndPaint=USER32.EndPaint
@@ -20,7 +20,7 @@ EXPORTS
     LoadCursorW=USER32.LoadCursorW
     PeekMessageW=USER32.PeekMessageW
     RegisterClassExW=USER32.RegisterClassExW
-    SetWindowPos=USER32.SetWindowPos
-    ShowWindow=USER32.ShowWindow
+    SetWindowPos=VeinSetWindowPos
+    ShowWindow=VeinShowWindow
     TranslateMessage=USER32.TranslateMessage
     UnregisterClassW=USER32.UnregisterClassW

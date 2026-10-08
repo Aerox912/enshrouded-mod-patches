@@ -1195,6 +1195,27 @@
       "Size": 35149,
       "Download": null,
       "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/XHL-Workshop-Speed-20x/mod.json",
+      "Hash": "9af6d409568b55d3347031c34ea323828326912ee841252707c29b43a619fdd5",
+      "Size": 319,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/XHL-Workshop-Speed-20x/config.txt",
+      "Hash": "b7f4d3616d6e9d1dd8de0c7745ee651f03f4da0e90afe62ed52c6afc6ccc4a59",
+      "Size": 146,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/XHL-Workshop-Speed-20x/src/mod.lua",
+      "Hash": "7e478cee0b837e987b580182e7fad62c686fd5a807635969df27ea6a2e513b61",
+      "Size": 4049,
+      "Download": null,
+      "ArchivePath": null
     }
   ],
   "Downloads": [
