@@ -6,6 +6,12 @@ cmake --build build/vein-controls --config Release
 if($LASTEXITCODE) { throw 'Vein controls build failed' }
 ctest --test-dir build/vein-controls -C Release --output-on-failure
 if($LASTEXITCODE) { throw 'Vein controls tests failed' }
+cmake -S native/interaction-probe -B build/interaction-probe -A x64
+if($LASTEXITCODE) { throw 'Interaction diagnostic configuration failed' }
+cmake --build build/interaction-probe --config Release
+if($LASTEXITCODE) { throw 'Interaction diagnostic build failed' }
+ctest --test-dir build/interaction-probe -C Release --output-on-failure
+if($LASTEXITCODE) { throw 'Interaction diagnostic checks failed' }
 python -m unittest -v
 if($LASTEXITCODE) { throw 'Patch tests failed' }
 python -m pip install --disable-pip-version-check pyinstaller==6.16.0

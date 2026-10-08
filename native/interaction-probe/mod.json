@@ -1,0 +1,13 @@
+{
+  "id": "InteractionProbe",
+  "version": "0.6.0",
+  "name": "Interaction Diagnostics (development only)",
+  "description": "Observes manual harvest and loot transactions. Performs no automatic actions.",
+  "author": "Aerox912",
+  "capabilities": [],
+  "shroudtopia": {
+    "default": {
+      "active": true
+    }
+  }
+}
