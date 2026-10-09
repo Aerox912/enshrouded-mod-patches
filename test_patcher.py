@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 import patcher
 
 class PatchTests(unittest.TestCase):
@@ -65,7 +66,32 @@ class PatchTests(unittest.TestCase):
         self.assertEqual(entry['inputHash'],recipe['input'])
         self.assertEqual(target['OriginalHash'],recipe['input'])
         self.assertEqual(target['Hash'],recipe['output'])
+        self.assertEqual(recipe['input'],'a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773')
+        self.assertEqual(recipe['output'],'e171920edc367d5fa999740e7128f9461723aa8c8c2f1c83e97fb9730232b303')
         delta=sum(len(base64.b64decode(e['data']))-e['remove'] for e in recipe['edits'])
         self.assertEqual(target['Size'],original['size']+delta)
+        patch_text=''.join(base64.b64decode(e['data']).decode() for e in recipe['edits'])
+        self.assertIn('beginsWith(name, "LootPickup_Material_Critter_Parts_")',patch_text)
+        self.assertIn('name == "LootPickup_Material_Skeleton_Weakling_Bones"',patch_text)
+        self.assertIn('name == "LootPickup_Material_Skeleton_Hound_Bones"',patch_text)
+
+    def test_auto_loot_server_assembly_uses_the_same_verified_patch(self):
+        recipe=json.loads((patcher.ROOT/'patches/recipes.json').read_text())['auto-loot-critters']
+        transformed=[]
+        def find_original(_directory,spec):
+            return b'original-auto-loot' if spec['sha256']==recipe['input'] else b'original'
+        def transform(spec,data):
+            transformed.append((spec,data))
+            return b'patched:'+spec['output'].encode()
+        with tempfile.TemporaryDirectory(dir=patcher.ROOT) as directory:
+            root=Path(directory)
+            adapter=root/'adapter.dll';adapter.write_bytes(b'adapter')
+            destination=root/'prepared'
+            with patch.object(patcher,'find_original',side_effect=find_original):
+                with patch.object(patcher,'transform',side_effect=transform):
+                    patcher.server_profile('cheeze',root,destination,adapter=adapter)
+            assembled=(destination/'mods/XHL-Auto-Loot/src/mod.lua').read_bytes()
+        self.assertIn((recipe,b'original-auto-loot'),transformed)
+        self.assertEqual(assembled,b'patched:'+recipe['output'].encode())
 
 if __name__=='__main__':unittest.main()

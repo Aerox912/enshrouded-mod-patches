@@ -95,12 +95,12 @@
   "auto-loot-critters": {
     "kind": "delta",
     "input": "a117a4ec25de51479c299f97ff1b231b9dba9541b6521317519add8844ded773",
-    "output": "3bc87827993733ce4534678162cf0b1b1b58e374c11108e20a6dace9d9e40190",
+    "output": "e171920edc367d5fa999740e7128f9461723aa8c8c2f1c83e97fb9730232b303",
     "edits": [
       {
         "offset": 6727,
         "remove": 0,
-        "data": "ICAgIC0tIEZlbGwgQ3JpdHRlciByZW1haW5zIHVzZSBtYXRlcmlhbC1waWxlIG5hbWVzLCBidXQgcmVxdWlyZSB0aGVpciBub3JtYWwKICAgIC0tIGludGVyYWN0aW9uLiBLZWVwIHRoZSBjb21wbGV0ZSB2YW5pbGxhIHRlbXBsYXRlLCBpbmNsdWRpbmcgc3Bhd24gdGltaW5nLgogICAgaWYgbmFtZSA9PSAiTG9vdFBpY2t1cF9NYXRlcmlhbF9Dcml0dGVyX1BhcnRzIiBvcgogICAgICAgYmVnaW5zV2l0aChuYW1lLCAiTG9vdFBpY2t1cF9NYXRlcmlhbF9Dcml0dGVyX1BhcnRzXyIpIHRoZW4KICAgICAgICByZXR1cm4gbmlsCiAgICBlbmQKCg=="
+        "data": "ICAgIC0tIEZlbGwgQ3JpdHRlciBhbmQgc2tlbGV0b24gcmVtYWlucyB1c2UgbWF0ZXJpYWwtcGlsZSBuYW1lcywgYnV0IHJlcXVpcmUKICAgIC0tIG1hbnVhbCBpbnRlcmFjdGlvbi4gUHJlc2VydmUgdGhlIGNvbXBsZXRlIHZhbmlsbGEgdGVtcGxhdGUsIGluY2x1ZGluZwogICAgLS0gc3Bhd24gdGltaW5nLgogICAgaWYgbmFtZSA9PSAiTG9vdFBpY2t1cF9NYXRlcmlhbF9Dcml0dGVyX1BhcnRzIiBvcgogICAgICAgYmVnaW5zV2l0aChuYW1lLCAiTG9vdFBpY2t1cF9NYXRlcmlhbF9Dcml0dGVyX1BhcnRzXyIpIG9yCiAgICAgICBuYW1lID09ICJMb290UGlja3VwX01hdGVyaWFsX1NrZWxldG9uX1dlYWtsaW5nX0JvbmVzIiBvcgogICAgICAgbmFtZSA9PSAiTG9vdFBpY2t1cF9NYXRlcmlhbF9Ta2VsZXRvbl9Ib3VuZF9Cb25lcyIgdGhlbgogICAgICAgIHJldHVybiBuaWwKICAgIGVuZAoK"
       }
     ]
   }

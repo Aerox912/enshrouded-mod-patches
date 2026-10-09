@@ -466,7 +466,7 @@
       ],
       "maintainedPatch": {
         "recipe": "auto-loot-critters",
-        "purpose": "Preserve normal Fell Critter corpse interactions; other automatic loot remains enabled.",
+        "purpose": "Preserve manual interactions for Fell Critter and skeleton remains; other automatic loot remains enabled.",
         "targets": [
           "client",
           "server"

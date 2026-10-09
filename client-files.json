@@ -458,8 +458,8 @@
     },
     {
       "Path": "game/mods/XHL-Auto-Loot/src/mod.lua",
-      "Hash": "3bc87827993733ce4534678162cf0b1b1b58e374c11108e20a6dace9d9e40190",
-      "Size": 13078,
+      "Hash": "e171920edc367d5fa999740e7128f9461723aa8c8c2f1c83e97fb9730232b303",
+      "Size": 13221,
       "Download": null,
       "ArchivePath": null,
       "Import": "auto-loot",
