@@ -1,6 +1,7 @@
+param([string]$ServerCompatRoot=(Join-Path $PSScriptRoot '../../enshrouded-server-compat'))
 $ErrorActionPreference='Stop'
 Set-Location (Split-Path -Parent $PSScriptRoot)
-cmake -S native/vein-controls -B build/vein-controls -A x64
+cmake -S native/vein-controls -B build/vein-controls -A x64 "-DSERVER_COMPAT_ROOT=$ServerCompatRoot"
 if($LASTEXITCODE) { throw 'Vein controls configuration failed' }
 cmake --build build/vein-controls --config Release
 if($LASTEXITCODE) { throw 'Vein controls build failed' }

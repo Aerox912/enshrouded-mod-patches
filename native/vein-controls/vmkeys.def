@@ -1,5 +1,6 @@
 LIBRARY vmkeys
 EXPORTS
+    GetVeinMiningRadius
     GetAsyncKeyState=VeinKeyState
     BeginPaint=USER32.BeginPaint
     ClientToScreen=USER32.ClientToScreen

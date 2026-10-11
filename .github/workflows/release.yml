@@ -19,9 +19,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/checkout@v4
+        with:
+          repository: Aerox912/enshrouded-server-compat
+          ref: e2b5c145b5ad1601698a012a98222cb93639cb64
+          path: .dependencies/vein-server
       - name: Build, test and package
         shell: pwsh
-        run: ./ci/build.ps1
+        run: ./ci/build.ps1 -ServerCompatRoot "$env:GITHUB_WORKSPACE/.dependencies/vein-server"
       - uses: actions/upload-artifact@v4
         with:
           name: mod-patches

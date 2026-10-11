@@ -11,12 +11,19 @@ struct Notice {
     static constexpr std::uint64_t duration_ms = 1500;
     bool pending = false;
     bool on = false;
+    unsigned radius = 0;
     std::uint64_t changed_at = 0;
 
     void changed(Mode mode, bool before, bool after, std::uint64_t now) {
         if (mode != Mode::Toggle || before == after) return;
         pending = true;
         on = after;
+        radius = 0;
+        changed_at = now;
+    }
+    void radius_changed(unsigned value, std::uint64_t now) {
+        pending = true;
+        radius = value;
         changed_at = now;
     }
     bool visible(std::uint64_t now, bool focused) {
