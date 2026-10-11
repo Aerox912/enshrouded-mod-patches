@@ -7,6 +7,12 @@ Local F12 switching and restoration of the saved radius were verified by the
 player. The loader's repeated incompatible-DLL messages stopped in the combined
 local session. No hosted deployment is part of this release.
 
+New installations and updates rewrite the activation preset to Toggle. The
+activation key and saved radius are preserved; Hold and Always on remain
+selectable afterward. The preparation tool defaults to Toggle when `--mode` is
+omitted. The manager updates both controls.ini and its saved mode, binds the
+helper import and labels Toggle as the default.
+
 ## Behavior
 
 F12 cycles 1x, 2x and 3x (5, 10 and 15 m). A new installation starts at 2x;
@@ -31,15 +37,17 @@ and null-factory retries. Historical log files are preserved.
   combined Creative/Journey server. The manifest identifies that combined
   binary; do not substitute the standalone server proxy or candidate 4's
   earlier combined build.
-- Manager source commit `f7c0036e3d0acc8b71a29cb8d6ba46489b18dd5a`
+- Manager source commit `9cdbbea593e1a4e5a6e2bed2177644887a131b50`
   preserves the expanded capacity and helper import across Hold, Toggle,
   Always and key rebinding. The old manager can reject expanded files while
   restoring saved Toggle settings, so this source update is required before
-  the new manager is built.
-- Preserve `.EnshroudedClientMods/hotkeys.json`, `controls.ini` and `radius.ini`
-  independently of installation receipts. Do not ship a default radius.ini
-  over an existing choice. Update receipt/hash inventories to the actual
-  generated DLL bytes after activation rebinding.
+  the new manager is built. Installs and updates also rewrite saved activation
+  presets to Toggle, including existing Hold and Always settings.
+- Back up `.EnshroudedClientMods/hotkeys.json` and `controls.ini`, then rewrite
+  their activation mode to Toggle on installs and updates. Preserve the key
+  and `radius.ini`. Do not ship a default radius.ini over an existing choice.
+  Include the preset files in rollback and update receipt/hash inventories to
+  the actual generated DLL bytes after activation rebinding.
 - F12 is reserved. Radius-enabled Hold also needs vmkeys.dll. Removal must
   restore the matching non-radius DLL/helper pair through the manager's
   rollback transaction.
@@ -52,7 +60,7 @@ Use Python 3 with the extracted component package:
 python tools/prepare-vein-radius.py --client path/to/client/XHL-Vein-Mining.dll --server path/to/official/XHL-Vein-Mining.dll --output new-staging-directory --mode toggle --key 0x77
 ```
 
-Use the player's saved activation mode/key. Omitting `--key` preserves the
+Use Toggle for this release and retain the player's activation key. Omitting `--key` preserves the
 client DLL's current key. Original-language and already localized client DLLs
 are accepted by normalized full checksum. Existing output directories,
 unsupported versions and altered DLLs are rejected. `prepared-files.json`
@@ -83,6 +91,12 @@ candidate was verified locally; no independent Pro review of that final
 candidate or live performance result is claimed. Publication preparation adds
 the pinned build dependency and original-import staging tool without changing
 the tested runtime algorithms.
+
+The Toggle preset update passed 734 offline manager lifecycle and GUI checks,
+including fresh installation, Hold/Always migration, key and radius retention,
+failed-install/update rollback and a DLL replacement with no saved preferences
+file. Eight Python preparation/rebinding tests and an actual original-import
+CLI check verify the Toggle default and exact paired output hashes.
 
 For Soulrend, compare Toggle off/on and Always idle/moving/menu use for at least
 30 minutes per mode, extending to the previous failure window when possible.

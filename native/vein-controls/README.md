@@ -3,7 +3,7 @@
 Original mod: XHL's Vein Mining 1.0.33, https://www.nexusmods.com/enshrouded/mods/129.
 The input helper and its source are by Aerox912 and licensed under the repository's MIT license. It does not replace or relicense the original mod.
 
-The Mod Manager exposes Hold, Toggle and Always on in Settings > Hotkeys. Hold remains the activation default. Toggle suggests F8, which the player can change. Always on requires no activation key. Every mode still requires the normal mining action on the controller or keyboard.
+The next Mod Manager exposes Hold, Toggle and Always on in Settings > Hotkeys. New installations and updates rewrite the activation preset to Toggle, as requested. Existing activation keys and the saved radius are preserved. Hold and Always on remain selectable afterward. Toggle suggests F8 when selected in settings, which the player can change. Always on requires no activation key. Every mode still requires the normal mining action on the controller or keyboard.
 
 Hold keeps the original target-ore bar. Toggle and Always on hide it. Toggle shows a click-through `Vein Mining: On` or `Vein Mining: Off` notice for 1.5 seconds after a fresh activation press. Losing focus dismisses the notice.
 

@@ -61,14 +61,14 @@ def main():
     parser.add_argument('--client', type=Path, required=True, help='Verified original or localized client DLL')
     parser.add_argument('--server', type=Path, required=True, help='Verified official server DLL')
     parser.add_argument('--output', type=Path, required=True, help='New staging directory')
-    parser.add_argument('--mode', choices=('hold', 'toggle', 'always'), required=True)
+    parser.add_argument('--mode', choices=('hold', 'toggle', 'always'), default='toggle', help='Install/update preset: toggle; other modes are manual overrides')
     parser.add_argument('--key', type=lambda value: int(value, 0), help='Windows virtual-key code; preserve current key if omitted')
     args = parser.parse_args()
     try:
         prepare(args.client, args.server, args.output, args.mode, args.key)
     except (OSError, ValueError, KeyError) as error:
         parser.exit(1, 'Preparation stopped: ' + str(error) + '\n')
-    print('Prepared matching DLLs. Install only with the pinned helper/server pair; preserve controls.ini and radius.ini.')
+    print('Prepared matching DLLs. Install only with the pinned helper/server pair; set controls.ini Mode=' + args.mode + ' and preserve the activation key and radius.ini.')
 
 
 if __name__ == '__main__':
