@@ -11,6 +11,7 @@ class HotkeyTests(unittest.TestCase):
   offset=self.manifest['inputImportOffset'];name=self.manifest['inputImportOriginal'].encode()+b'\0';data[offset:offset+len(name)]=name
   for site in self.manifest['sites']:
    code=bytes.fromhex(site['bytes']);data[site['offset']:site['offset']+len(code)]=code
+  struct.pack_into('<I',data,11985,65536)
   self.data=bytes(data);self.manifest['hashes']=[hashlib.sha256(self.data).hexdigest()]
  def test_changes_only_key_operands_and_restores(self):
   changed=module.rekey(self.data,0x76,self.manifest)
@@ -33,3 +34,14 @@ class HotkeyTests(unittest.TestCase):
    self.assertEqual(module.normalize(changed,self.manifest),(self.data,0x77))
    self.assertEqual(module.rekey(changed,192,self.manifest,'hold'),self.data)
   with self.assertRaises(ValueError):module.rekey(self.data,0x77,self.manifest,'unknown')
+ def test_radius_survives_all_activation_modes_and_rebinding(self):
+  expanded=bytearray(self.data);struct.pack_into('<I',expanded,11985,262144)
+  for mode in ('hold','toggle','always'):
+   changed=module.rekey(bytes(expanded),0x77,self.manifest,mode)
+   self.assertEqual(struct.unpack_from('<I',changed,11985)[0],262144)
+   self.assertEqual(changed[288536:288547],b'vmkeys.dll\0')
+   self.assertEqual(module.normalize(changed,self.manifest),(self.data,0x77))
+  with self.assertRaises(ValueError):module.rekey(bytes(expanded),0x7b,self.manifest)
+ def test_rejects_arbitrary_region_capacity(self):
+  changed=bytearray(self.data);struct.pack_into('<I',changed,11985,262145)
+  with self.assertRaises(ValueError):module.rekey(changed,0x77,self.manifest)

@@ -458,8 +458,8 @@
     },
     {
       "Path": "game/mods/XHL-Auto-Loot/src/mod.lua",
-      "Hash": "3bc87827993733ce4534678162cf0b1b1b58e374c11108e20a6dace9d9e40190",
-      "Size": 13078,
+      "Hash": "e171920edc367d5fa999740e7128f9461723aa8c8c2f1c83e97fb9730232b303",
+      "Size": 13221,
       "Download": null,
       "ArchivePath": null,
       "Import": "auto-loot",
@@ -1193,6 +1193,27 @@
       "Path": "notices/OptiScaler-LICENSE.txt",
       "Hash": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "Size": 35149,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/XHL-Workshop-Speed-20x/mod.json",
+      "Hash": "9af6d409568b55d3347031c34ea323828326912ee841252707c29b43a619fdd5",
+      "Size": 319,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/XHL-Workshop-Speed-20x/config.txt",
+      "Hash": "b7f4d3616d6e9d1dd8de0c7745ee651f03f4da0e90afe62ed52c6afc6ccc4a59",
+      "Size": 146,
+      "Download": null,
+      "ArchivePath": null
+    },
+    {
+      "Path": "game/mods/XHL-Workshop-Speed-20x/src/mod.lua",
+      "Hash": "7e478cee0b837e987b580182e7fad62c686fd5a807635969df27ea6a2e513b61",
+      "Size": 4049,
       "Download": null,
       "ArchivePath": null
     }

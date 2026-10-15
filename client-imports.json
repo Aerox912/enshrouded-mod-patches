@@ -593,5 +593,26 @@
     "source": "src/mod.lua",
     "inputHash": "14d8c0e16f748095c832ce345db844e76541002330bb91f1c4815e407a119a76",
     "patch": "rested-hoarder"
+  },
+  {
+    "target": "game/mods/XHL-Workshop-Speed-20x/mod.json",
+    "component": "workshop",
+    "source": "mod.json",
+    "inputHash": "9af6d409568b55d3347031c34ea323828326912ee841252707c29b43a619fdd5",
+    "patch": null
+  },
+  {
+    "target": "game/mods/XHL-Workshop-Speed-20x/config.txt",
+    "component": "workshop",
+    "source": "config.txt",
+    "inputHash": "b7f4d3616d6e9d1dd8de0c7745ee651f03f4da0e90afe62ed52c6afc6ccc4a59",
+    "patch": null
+  },
+  {
+    "target": "game/mods/XHL-Workshop-Speed-20x/src/mod.lua",
+    "component": "workshop",
+    "source": "src/mod.lua",
+    "inputHash": "7e478cee0b837e987b580182e7fad62c686fd5a807635969df27ea6a2e513b61",
+    "patch": null
   }
 ]
