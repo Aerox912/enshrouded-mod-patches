@@ -1,5 +1,11 @@
 # Enshrouded mod patches and profiles
 
+The **ESM 1.0 compatibility candidate** adds patches for ESM Recipe Helper
+(Hoarder's Helper), ESM Blink (Electric Blink), ESM Creative (Gem Forges), and
+ESM Rested (Rested Enhanced). See [scope, hashes and offline evidence](docs/ESM-1.0-COMPATIBILITY.md).
+The older catalog/profile compatibility statements below do not establish 1.0
+gameplay or dedicated-server support.
+
 Maintained compatibility patches and the complete Normal/Cheeze component catalog. Both profiles enable EMBER magic furniture, magic production stations, buff refresh, no-build-zone removal and building in Shroud fog. Altar requirements remain enabled.
 
 Download originals from the author links in catalog.json. The Windows patch utility validates the original hash before patching and never edits its input. See CREDITS.md and LICENSE. Generated patched originals are for your local installation; this release does not redistribute them.
